@@ -85,7 +85,10 @@ The chart curve rises fast to about 130 °C in 1 minute, reaches about 180 °C a
 
 ## Observed behavior
 
-No roasts yet. Add entries here as `- <finding> (roasts: <IDs>)`.
+Add entries here as `- <finding> (roasts: <IDs>)`.
+
+- First crack was not heard over the fan with 90 g of a 30-month-old washed coffee. Either it was too quiet to hear or the roast ended before it. Do not rely on sound alone to end a roast until this is settled. (roasts: 2026-11-10-01)
+- No visible smoke at 10.2 % weight loss. (roasts: 2026-11-10-01)
 
 ## Open questions
 
@@ -94,7 +97,7 @@ Each question lists a cheap test. Run the tests early, because the answers chang
 | ID | Question | Test | Status |
 |---|---|---|---|
 | H1 | Does the P01/P02 time setting cut off one fixed curve (so 10 min and 14 min settings heat the same way until 10:00)? Or does it stretch the curve to fit the time? | Roast the same bean, same weight, at two set times (for example 10 and 14 min). Compare color change and first-crack times. Same times → one fixed curve. | Open |
-| H2 | When does first crack start on this machine at 100 g? | Every roast: log `first_crack_start`. | Open |
+| H2 | When does first crack start on this machine at 100 g? | Every roast: log `first_crack_start`. | Open. Not heard in 2026-11-10-01. |
 | H3 | How does batch size change timing? In fluid-bed roasters a larger batch often moves less and roasts slower, but it can also retain more heat. | After H1, roast one bean at 80 g and 110 g with the same settings. | Open |
 | H4 | How do P01 and P02 differ in speed? | Roast the same bean, same weight and time in each. | Open |
 | H5 | Does P03 hold a steady temperature or ramp? At what setting does it reach first crack within its 10 minutes? | After a P02 drying stage, run P03 at 220 °C and log crack times. Adjust by 10 °C steps. | Open |

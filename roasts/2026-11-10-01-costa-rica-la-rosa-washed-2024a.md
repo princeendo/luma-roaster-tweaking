@@ -1,6 +1,6 @@
 ---
 roast_id: 2026-11-10-01
-status: planned
+status: roasted
 date: 2026-11-10
 bean_id: costa-rica-la-rosa-washed-2024a
 baseline_roast: null
@@ -28,8 +28,8 @@ actual:
   mode: null
   set_time_min: null
   p03_set_temp_c: null
-  green_weight_g: null
-  roasted_weight_g: null
+  green_weight_g: 90.0
+  roasted_weight_g: 80.8
   heating_end: null
   heating_end_reason: null
   cooling_end: null
@@ -44,7 +44,7 @@ events:
   smoke_noticeable: null
 
 results:
-  weight_loss_pct: null
+  weight_loss_pct: 10.2
   development_time: null
   development_ratio_pct: null
   roast_level: null
@@ -59,7 +59,7 @@ results:
 tasting: []
 
 next_time: null
-notes: "Planned for 2026-11-10. If the roast happens on another day, rename the file and roast_id to that date."
+notes: "Roasted 2026-11-10. First report gave only the two weights and impressions. Program, set time, event times, heating end, room temperature and the rating label are not yet reported and stay null until Colin confirms them."
 ---
 
 # Roast 2026-11-10-01: Costa Rica La Rosa
@@ -110,6 +110,18 @@ If the count-up timer fails, elapsed time is 14:00 minus the display.
 3. Note the chaff amount, how even the color is, and any dark patches or dark tips.
 4. Empty the chaff bin.
 5. Store the beans in an airtight container. Taste after 3–5 days of rest, and use the same brew recipe for every roast of this bean.
+
+## What happened
+
+Colin's first report, 2026-11-10:
+
+- No first crack was heard at any point. He suspects the fan noise covered it.
+- No visible smoke. Heat came through the outlet.
+- 90.0 g green gave 80.8 g roasted: 10.2 % weight loss.
+- "The color looks pretty good." No roast level judged yet.
+- Stored in a mason jar with the lid slightly loose.
+
+Reading of the result (**external guidance**, not yet confirmed): 10.2 % is below the 11–13 % typical for a light roast. Old green coffee holds less water, so the same roast level loses less weight. The roast is therefore somewhere between just short of first crack and a light roast. Bean size, surface and smell will narrow it down, and the cup will settle it.
 
 ## Tasting
 

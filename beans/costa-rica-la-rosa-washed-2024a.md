@@ -6,7 +6,7 @@ supplier: Happy Mug
 supplier_url: https://happymugcoffee.com
 purchase_date: null
 green_weight_purchased_g: 453.6
-green_weight_remaining_g: 453.6
+green_weight_remaining_g: 363.6
 cost_total: null
 origin_country: Costa Rica
 region: West Valley, Naranjo
@@ -48,7 +48,7 @@ One pound gives five batches of 90 g (450 g). Each roast changes one thing again
 
 ## Roast history summary
 
-- 2026-11-10-01: planned. P01, 90 g, set 14 min, cool 0:30 after first crack ends.
+- 2026-11-10-01: roasted, 90.0 g to 80.8 g (10.2 % loss). No first crack heard and no visible smoke. Times not yet reported. Not tasted.
 
 ## Best settings so far
 
