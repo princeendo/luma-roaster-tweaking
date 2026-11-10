@@ -14,12 +14,14 @@ Status values: `pending`, `in-progress`, `blocked`, `deferred`, `completed`.
 
 ### SETUP-02: Add the first green coffee
 
-- **Status:** pending
+- **Status:** completed
 - **What:** Create `beans/<bean_id>.md` for each coffee on hand.
+- **Done:** `beans/costa-rica-la-rosa-washed-2024a.md`. Add a file for any other coffee when it is first roasted.
 
 ### ROAST-01: Baseline roast
 
-- **Status:** pending
+- **Status:** in-progress
+- **Plan:** `roasts/2026-11-10-01-costa-rica-la-rosa-washed-2024a.md` (P01, 90 g, set 14 min). Waiting for Colin to roast and report.
 - **Depends on:** SETUP-02
 - **What:** Plan and record the first roast at about 100 g. Set the timer longer than needed and press Power to cool based on first crack. Log first-crack time and weight loss.
 
