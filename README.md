@@ -25,6 +25,7 @@ beans/
   _template.md                 One file per lot of green coffee
 roasts/
   _template.md                 One file per roast
+print/                         Printable one-page roast sheets (HTML source and PDF)
 docs/agent/                    Agent preferences, decisions and learnings
 ```
 
