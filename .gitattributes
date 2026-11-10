@@ -1,0 +1,4 @@
+# Imported source material: keep byte-for-byte (generated SVG paths, Markdown hard breaks).
+reference/manual/** -whitespace
+*.pdf binary
+*.png binary
