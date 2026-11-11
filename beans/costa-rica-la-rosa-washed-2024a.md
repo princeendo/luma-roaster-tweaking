@@ -48,7 +48,7 @@ One pound gives five batches of 90 g (450 g). Each roast changes one thing again
 
 ## Roast history summary
 
-- 2026-11-10-01: roasted, 90.0 g to 80.8 g (10.2 % loss). No first crack heard and no visible smoke. Times not yet reported. Not tasted.
+- 2026-11-10-01: roasted, 90.0 g to 80.8 g (10.2 % loss). No first crack heard and no visible smoke. Judged `light` from photos, slightly uneven. Times not yet reported. Not tasted.
 
 ## Best settings so far
 

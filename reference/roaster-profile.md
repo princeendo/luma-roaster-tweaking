@@ -18,11 +18,11 @@ A countertop hot-air (fluid-bed) roaster. A fan blows heated air up through the 
 | Capacity | 120 g maximum, below the MAX fill line | Manual |
 | Rated power | 1,500 W | Manual |
 | Rated supply | AC 220–240 V, 50/60 Hz | Manual |
-| Nameplate supply on Colin's unit | **Not yet recorded.** Check the label on the base. | To do |
+| Nameplate on Colin's unit | **120 V, 60 Hz, 1,400 W** | Observed (label read 2026-11-11) |
 | Maximum temperature | 240 °C | Manual |
 | Display units | °C | Manual |
 
-**Supply voltage:** the manual is written for a 220–240 V unit and forbids converters and adapters. If Colin's unit is a 120 V version, its heating power and timings may differ from the manual's chart. Record the nameplate rating here before relying on the manual's times.
+**Supply voltage:** the manual is written for a 220–240 V, 1,500 W unit. Colin's unit is a 120 V, 1,400 W version, so it has slightly less heating power and the manual's times and chart may not apply to it. Treat them as a rough guide until roasts confirm them. 1,400 W at 120 V draws about 11.7 A, most of a 15 A circuit, so nothing else large should run on that circuit during a roast.
 
 ## Controls
 
@@ -87,7 +87,7 @@ The chart curve rises fast to about 130 °C in 1 minute, reaches about 180 °C a
 
 Add entries here as `- <finding> (roasts: <IDs>)`.
 
-- First crack was not heard over the fan with 90 g of a 30-month-old washed coffee. Either it was too quiet to hear or the roast ended before it. Do not rely on sound alone to end a roast until this is settled. (roasts: 2026-11-10-01)
+- First crack was not heard over the fan with 90 g of a 30-month-old washed coffee. The beans had expanded, opened at the crease and turned brittle, so first crack very probably happened unheard. Do not rely on sound alone to end a roast. Use elapsed time and weight loss as well. (roasts: 2026-11-10-01)
 - No visible smoke at 10.2 % weight loss. (roasts: 2026-11-10-01)
 
 ## Open questions
@@ -102,4 +102,4 @@ Each question lists a cheap test. Run the tests early, because the answers chang
 | H4 | How do P01 and P02 differ in speed? | Roast the same bean, same weight and time in each. | Open |
 | H5 | Does P03 hold a steady temperature or ramp? At what setting does it reach first crack within its 10 minutes? | After a P02 drying stage, run P03 at 220 °C and log crack times. Adjust by 10 °C steps. | Open |
 | H6 | How much does a warm start (second batch soon after the first) speed up the roast? | Roast two identical batches back to back and compare event times. | Open |
-| H7 | What supply voltage is the unit rated for? | Read the nameplate. | Open |
+| H7 | What supply voltage is the unit rated for? | Read the nameplate. | Answered: 120 V, 60 Hz, 1,400 W. |

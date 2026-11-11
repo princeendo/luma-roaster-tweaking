@@ -47,11 +47,11 @@ results:
   weight_loss_pct: 10.2
   development_time: null
   development_ratio_pct: null
-  roast_level: null
+  roast_level: light
   color_whole: null
   color_ground: null
   color_method: null
-  evenness: null
+  evenness: slightly_uneven
   defects: []
   chaff_amount: null
   bean_movement: null
@@ -59,7 +59,7 @@ results:
 tasting: []
 
 next_time: null
-notes: "Roasted 2026-11-10. First report gave only the two weights and impressions. Program, set time, event times, heating end, room temperature and the rating label are not yet reported and stay null until Colin confirms them."
+notes: "Roasted 2026-11-10. First report gave only the two weights and impressions. Program, set time, event times, heating end, room temperature are not yet reported and stay null until Colin confirms them. roast_level and evenness were judged by the agent from Colin's photos of 2026-11-11, not in person."
 ---
 
 # Roast 2026-11-10-01: Costa Rica La Rosa
@@ -122,6 +122,15 @@ Colin's first report, 2026-11-10:
 - Stored in a mason jar with the lid slightly loose.
 
 Reading of the result (**external guidance**, not yet confirmed): 10.2 % is below the 11–13 % typical for a light roast. Old green coffee holds less water, so the same roast level loses less weight. The roast is therefore somewhere between just short of first crack and a light roast. Bean size, surface and smell will narrow it down, and the cup will settle it.
+
+Second report, 2026-11-11 (photos beside green beans and beside a Colombian coffee roasted between light and medium):
+
+- The roasted beans are clearly larger than the green ones and the center creases have opened.
+- Color is light to medium-light brown, lighter than the Colombian reference. A few beans are paler tan. Many surfaces are still matte and slightly wrinkled.
+- A bean broke between the teeth with minimal to moderate effort.
+- Rating label: 120 V, 60 Hz, 1400 W.
+
+Conclusion: the beans expanded and turned brittle, so first crack very probably happened and was not heard. The roast is `light`, with little development after first crack. This agrees with the 10.2 % weight loss for an old, dry bean.
 
 ## Tasting
 
