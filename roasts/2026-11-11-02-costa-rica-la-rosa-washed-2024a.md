@@ -1,6 +1,6 @@
 ---
 roast_id: 2026-11-11-02
-status: planned
+status: roasted
 date: 2026-11-11
 bean_id: costa-rica-la-rosa-washed-2024a
 baseline_roast: 2026-11-11-01
@@ -25,18 +25,18 @@ environment:
   minutes_since_last_roast: null
 
 actual:
-  mode: null
-  set_time_min: null
+  mode: P01
+  set_time_min: 18
   p03_set_temp_c: null
-  green_weight_g: null
-  roasted_weight_g: null
-  heating_end: null
-  heating_end_reason: null
+  green_weight_g: 90.0
+  roasted_weight_g: 76.2
+  heating_end: "18:00"
+  heating_end_reason: timer
   cooling_end: null
   error_codes: []
 
 events:
-  color_change: null
+  color_change: "08:00"
   first_crack_start: null
   first_crack_rolling: null
   first_crack_end: null
@@ -44,10 +44,10 @@ events:
   smoke_noticeable: null
 
 results:
-  weight_loss_pct: null
+  weight_loss_pct: 15.3
   development_time: null
   development_ratio_pct: null
-  roast_level: null
+  roast_level: city_plus
   color_whole: null
   color_ground: null
   color_method: null
@@ -58,8 +58,8 @@ results:
 
 tasting: []
 
-next_time: null
-notes: "Planned for 2026-11-11 as the second roast of the day. If it happens on another day, rename the file and roast_id. expected_first_crack is null because first crack is not audible on this machine."
+next_time: "No further time step: 18 min is the P01 maximum. Taste the 14, 16 and 18 min roasts side by side, then choose the direction."
+notes: "Planned for 2026-11-11 as the second roast of the day. If it happens on another day, rename the file and roast_id. expected_first_crack is null because first crack is not audible on this machine. Colin reported that he ran P01 for 18 minutes, recorded as the timer running out. color_change is his estimate (approximately 08:00). roast_level was judged by the agent from his photo. He did not say whether the roaster started cold, so warm_start stays null. Room temperature, sounds, smoke and cooling end were not reported."
 ---
 
 # Roast 2026-11-11-02: Costa Rica La Rosa
@@ -102,6 +102,23 @@ Elapsed time is 18:00 minus the display.
 2. Photograph them beside both earlier roasts and the Colombian reference.
 3. Empty the chaff bin. Store airtight with the lid closed, labeled with the roast time.
 
+## What happened
+
+Colin's report, 2026-11-11, with a photo of green beans, the 14, 16 and 18 min roasts and the Colombian light-medium reference in a row:
+
+- P01 ran for 18 minutes.
+- 90.0 g green gave 76.2 g roasted: 15.3 % weight loss. The plan expected 13.5–14.5 %.
+- Color change at approximately 08:00.
+- In the photo the beans are an even medium brown, darker than the 16 min roast and close to the Colombian reference, perhaps slightly lighter. No oil on the surface.
+
+Reading:
+
+- Recorded as `city_plus` from the color. The 15.3 % weight loss points darker, toward `full_city`, and more so for an old, dry bean. Color in a phone photo is the weaker evidence, so the true level may be `full_city`.
+- Weight loss rose 1.8 points from 14 to 16 min and 3.3 points from 16 to 18 min. The roast speeds up late in the cycle. A warm start would also raise the figure, and it is not known whether this roast started cold.
+- H1: color change came at about 07:30 with a 16 min setting and about 08:00 with 18 min. A fully stretched curve would predict about 08:25, and a fixed curve 07:30. Both times are estimates, so the half-minute difference does not settle the question.
+
 ## Tasting
 
 ## Next time
+
+The time series is complete at 14, 16 and 18 min. Taste all three with one recipe before using the last two batches. The best-tasting time sets the next roast.

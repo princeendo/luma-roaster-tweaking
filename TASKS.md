@@ -28,12 +28,18 @@ Status values: `pending`, `in-progress`, `blocked`, `deferred`, `completed`.
 
 ### ROAST-02: Test whether the time setting changes the curve (H1)
 
-- **Status:** in-progress
-- **Next:** `roasts/2026-11-11-02-costa-rica-la-rosa-washed-2024a.md` (P01, 90 g, set 18 min). Its color-change time, compared with 07:30 at 16 min, should answer H1.
+- **Status:** completed
+- **Result:** inconclusive for H1. 14, 16 and 18 min roasts gave 10.2 %, 12.0 % and 15.3 % weight loss, so the set time reliably controls roast level. Color change at about 07:30 (16 min) and 08:00 (18 min) is too rough to tell a fixed curve from a stretched one. H1 stays open in `reference/roaster-profile.md` with a sharper test.
+- **Third roast:** `roasts/2026-11-11-02-costa-rica-la-rosa-washed-2024a.md` (P01, 90 g, set 18 min).
 - **First pair:** `roasts/2026-11-11-01-costa-rica-la-rosa-washed-2024a.md` (P01, set 16 min against the 14 min baseline). Roasted 2026-11-11: darker than the baseline, color change about 07:30. 12.0 % loss against 10.2 %. H1 is still open because the baseline has no color-change time.
 - **Depends on:** ROAST-01
 - **What:** Two roasts of the same bean and weight at different set times. See H1 in `reference/roaster-profile.md`.
 - **Why:** The answer decides whether "long timer, manual cool" is a valid way to control the roast.
+
+### TASTE-01: Taste the 14/16/18 min series
+
+- **Status:** pending
+- **What:** Brew roasts 2026-11-10-01, 2026-11-11-01 and 2026-11-11-02 side by side with one recipe, about 2026-11-15 to 2026-11-17. Record a `tasting` entry in each roast file. The result decides the last two batches of the Costa Rica La Rosa (183.6 g left).
 
 ## App
 

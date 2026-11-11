@@ -89,8 +89,10 @@ Add entries here as `- <finding> (roasts: <IDs>)`.
 
 - First crack was not heard over the fan with 90 g of a 30-month-old washed coffee. The beans had expanded, opened at the crease and turned brittle, so first crack very probably happened unheard. Do not rely on sound alone to end a roast. Use elapsed time and weight loss as well. (roasts: 2026-11-10-01)
 - P01 with 90 g and a 14 min set time, run to the end of the timer, gave only a `light` roast with 10.2 % weight loss on a 30-month-old washed coffee. This unit is slower than the manual's chart, which shows medium at about 11 min. (roasts: 2026-11-10-01)
-- A longer set time gives a darker roast: P01 at 16 min was clearly darker than P01 at 14 min, same bean and 90.0 g, timer run out both times. Weight loss rose from 10.2 % to 12.0 %, about 0.9 points per added minute. (roasts: 2026-11-10-01, 2026-11-11-01)
-- Color change (green to yellow or tan) came at about 07:30 on P01 with a 16 min set time. (roasts: 2026-11-11-01)
+- A longer set time gives a darker roast: P01 at 16 min was clearly darker than P01 at 14 min, same bean and 90.0 g, timer run out both times. Weight loss rose from 10.2 % to 12.0 %, about 0.9 points per added minute.
+- The roast speeds up late in the cycle. On P01 with 90.0 g of one bean, weight loss was 10.2 % at 14 min, 12.0 % at 16 min and 15.3 % at 18 min: 1.8 points for the first added two minutes and 3.3 for the next two. It is not known whether the 18 min roast started cold. (roasts: 2026-11-10-01, 2026-11-11-01, 2026-11-11-02)
+- The maximum P01 time, 18 min, did not produce an oily or very dark roast at 90 g. The beans were about the color of a light-medium reference coffee. The manual's table calls 17–18 min "Italian Roast". (roasts: 2026-11-11-02) (roasts: 2026-11-10-01, 2026-11-11-01)
+- Color change (green to yellow or tan) came at about 07:30 on P01 with a 16 min set time and about 08:00 with an 18 min set time. Both are estimates. (roasts: 2026-11-11-01, 2026-11-11-02)
 - First crack was not heard in either roast. The fan is probably too loud for sound to be a usable signal on this machine. (roasts: 2026-11-10-01, 2026-11-11-01)
 - No visible smoke at 10.2 % weight loss. (roasts: 2026-11-10-01)
 
@@ -100,7 +102,7 @@ Each question lists a cheap test. Run the tests early, because the answers chang
 
 | ID | Question | Test | Status |
 |---|---|---|---|
-| H1 | Does the P01/P02 time setting cut off one fixed curve (so 10 min and 14 min settings heat the same way until 10:00)? Or does it stretch the curve to fit the time? | Roast the same bean, same weight, at two set times (for example 10 and 14 min). Compare color change and first-crack times. Same times → one fixed curve. | Open. 16 min roasted darker than 14 min, which fits either answer. The color-change time is known only for the 16 min roast (about 07:30), so log it on every roast. |
+| H1 | Does the P01/P02 time setting cut off one fixed curve (so 10 min and 14 min settings heat the same way until 10:00)? Or does it stretch the curve to fit the time? | Roast the same bean, same weight, at two set times (for example 10 and 14 min). Compare color change and first-crack times. Same times → one fixed curve. | Open. Longer set times roast darker, which fits either answer. Color change was about 07:30 at 16 min and about 08:00 at 18 min; a fixed curve predicts 07:30 and a fully stretched one about 08:25. The estimates are too rough to decide. A sharper test: 10 min against 18 min, timing color change to the second. |
 | H2 | When does first crack start on this machine at 100 g? | Every roast: log `first_crack_start`. | Open. Not heard in 2026-11-10-01 or 2026-11-11-01. |
 | H3 | How does batch size change timing? In fluid-bed roasters a larger batch often moves less and roasts slower, but it can also retain more heat. | After H1, roast one bean at 80 g and 110 g with the same settings. | Open |
 | H4 | How do P01 and P02 differ in speed? | Roast the same bean, same weight and time in each. | Open |
