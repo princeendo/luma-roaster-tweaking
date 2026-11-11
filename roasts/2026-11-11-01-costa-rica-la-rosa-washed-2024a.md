@@ -28,8 +28,8 @@ actual:
   mode: P01
   set_time_min: 16
   p03_set_temp_c: null
-  green_weight_g: null
-  roasted_weight_g: null
+  green_weight_g: 90.0
+  roasted_weight_g: 79.2
   heating_end: "16:00"
   heating_end_reason: timer
   cooling_end: null
@@ -44,7 +44,7 @@ events:
   smoke_noticeable: null
 
 results:
-  weight_loss_pct: null
+  weight_loss_pct: 12.0
   development_time: null
   development_ratio_pct: null
   roast_level: city
@@ -58,8 +58,8 @@ results:
 
 tasting: []
 
-next_time: null
-notes: "Roasted 2026-11-11. expected_first_crack is null because first crack was not heard in the baseline. color_change is Colin's estimate (around 7.5 minutes). roast_level was judged by the agent from Colin's photo and his description, not in person. Program P01 is taken from the plan he followed. Green and roasted weights, room temperature and cooling end were not reported and stay null."
+next_time: "Set time 16 → 18 min, same program and weight, to complete a 14/16/18 series. Planned as 2026-11-11-02."
+notes: "Roasted 2026-11-11. expected_first_crack is null because first crack was not heard in the baseline. color_change is Colin's estimate (around 7.5 minutes). roast_level was judged by the agent from Colin's photo and his description, not in person. Program P01 is taken from the plan he followed. Room temperature and cooling end were not reported and stay null."
 ---
 
 # Roast 2026-11-11-01: Costa Rica La Rosa
@@ -108,8 +108,12 @@ Colin's report, 2026-11-11, with a photo of green beans, roast 2026-11-10-01, th
 - No cracks heard. Colin thinks the fan is too loud to hear them.
 - The beans are definitely darker than roast 2026-11-10-01, but not quite as dark as the Colombian reference. In the photo they are a more even medium-light brown, with fewer pale beans.
 
-Reading: one step darker than the baseline, recorded as `city`. The weight loss will confirm or correct that.
+Weights, reported later the same day: 90.0 g green, 79.2 g roasted, 12.0 % loss. That is the low end of the 12–13.5 % target and 1.8 points more than the baseline's 10.2 %.
+
+Reading: one step darker than the baseline, recorded as `city`. The weight loss agrees.
 
 ## Tasting
 
 ## Next time
+
+Set time 16 → 18 min with everything else the same. Two minutes added 1.8 points of weight loss, so 18 minutes should give about 13.5–14 % and complete a three-point series to taste side by side. See roast 2026-11-11-02.

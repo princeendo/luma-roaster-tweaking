@@ -89,7 +89,7 @@ Add entries here as `- <finding> (roasts: <IDs>)`.
 
 - First crack was not heard over the fan with 90 g of a 30-month-old washed coffee. The beans had expanded, opened at the crease and turned brittle, so first crack very probably happened unheard. Do not rely on sound alone to end a roast. Use elapsed time and weight loss as well. (roasts: 2026-11-10-01)
 - P01 with 90 g and a 14 min set time, run to the end of the timer, gave only a `light` roast with 10.2 % weight loss on a 30-month-old washed coffee. This unit is slower than the manual's chart, which shows medium at about 11 min. (roasts: 2026-11-10-01)
-- A longer set time gives a darker roast: P01 at 16 min was clearly darker than P01 at 14 min, same bean, timer run out both times. (roasts: 2026-11-10-01, 2026-11-11-01)
+- A longer set time gives a darker roast: P01 at 16 min was clearly darker than P01 at 14 min, same bean and 90.0 g, timer run out both times. Weight loss rose from 10.2 % to 12.0 %, about 0.9 points per added minute. (roasts: 2026-11-10-01, 2026-11-11-01)
 - Color change (green to yellow or tan) came at about 07:30 on P01 with a 16 min set time. (roasts: 2026-11-11-01)
 - First crack was not heard in either roast. The fan is probably too loud for sound to be a usable signal on this machine. (roasts: 2026-11-10-01, 2026-11-11-01)
 - No visible smoke at 10.2 % weight loss. (roasts: 2026-11-10-01)
