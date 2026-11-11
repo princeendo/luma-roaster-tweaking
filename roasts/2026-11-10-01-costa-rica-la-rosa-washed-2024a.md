@@ -25,13 +25,13 @@ environment:
   minutes_since_last_roast: null
 
 actual:
-  mode: null
-  set_time_min: null
+  mode: P01
+  set_time_min: 14
   p03_set_temp_c: null
   green_weight_g: 90.0
   roasted_weight_g: 80.8
-  heating_end: null
-  heating_end_reason: null
+  heating_end: "14:00"
+  heating_end_reason: timer
   cooling_end: null
   error_codes: []
 
@@ -58,8 +58,8 @@ results:
 
 tasting: []
 
-next_time: null
-notes: "Roasted 2026-11-10. First report gave only the two weights and impressions. Program, set time, event times, heating end, room temperature are not yet reported and stay null until Colin confirms them. roast_level and evenness were judged by the agent from Colin's photos of 2026-11-11, not in person."
+next_time: "Set time 14 → 16 min, same program and weight, to add development. Planned as 2026-11-11-01."
+notes: "Roasted 2026-11-10. Colin reported that the timer ran out, so heating ended at 14:00, past the planned 13:00 limit. Program P01 and set time 14 are taken from the plan he followed, not stated separately. Event times, room temperature and cooling end were not reported and stay null. roast_level and evenness were judged by the agent from Colin's photos of 2026-11-11, not in person."
 ---
 
 # Roast 2026-11-10-01: Costa Rica La Rosa
@@ -135,3 +135,5 @@ Conclusion: the beans expanded and turned brittle, so first crack very probably 
 ## Tasting
 
 ## Next time
+
+Set time 14 → 16 min with everything else the same. The full 14 minutes gave only a light roast with little development, so this unit runs slower than the manual's chart. See roast 2026-11-11-01.

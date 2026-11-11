@@ -88,6 +88,7 @@ The chart curve rises fast to about 130 °C in 1 minute, reaches about 180 °C a
 Add entries here as `- <finding> (roasts: <IDs>)`.
 
 - First crack was not heard over the fan with 90 g of a 30-month-old washed coffee. The beans had expanded, opened at the crease and turned brittle, so first crack very probably happened unheard. Do not rely on sound alone to end a roast. Use elapsed time and weight loss as well. (roasts: 2026-11-10-01)
+- P01 with 90 g and a 14 min set time, run to the end of the timer, gave only a `light` roast with 10.2 % weight loss on a 30-month-old washed coffee. This unit is slower than the manual's chart, which shows medium at about 11 min. (roasts: 2026-11-10-01)
 - No visible smoke at 10.2 % weight loss. (roasts: 2026-11-10-01)
 
 ## Open questions

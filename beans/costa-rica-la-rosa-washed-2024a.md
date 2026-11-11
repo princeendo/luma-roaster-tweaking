@@ -40,15 +40,16 @@ One pound gives five batches of 90 g (450 g). Each roast changes one thing again
 
 | Roast | Purpose | Settings | Answers |
 |---|---|---|---|
-| 1 | Baseline. Find first crack. | P01, 90 g, set 14 min, cool by ear | H2 |
-| 2 | Same roast with a shorter set time | P01, 90 g, set about 11 min, same stop rule | H1 |
+| 1 | Baseline. Find first crack. | P01, 90 g, set 14 min (timer ran out; crack not heard) | H2 |
+| 2 | Same roast with a longer set time, for more development | P01, 90 g, set 16 min, timer runs out | H1 |
 | 3 | Adjust development from the taste of roasts 1 and 2 | P01, 90 g, stop earlier or later | Best stop point |
 | 4 | Program comparison | P02, 90 g, otherwise as the best roast | H4 |
 | 5 | Repeat the best roast | Best settings so far | Repeatability |
 
 ## Roast history summary
 
-- 2026-11-10-01: roasted, 90.0 g to 80.8 g (10.2 % loss). No first crack heard and no visible smoke. Judged `light` from photos, slightly uneven. Times not yet reported. Not tasted.
+- 2026-11-11-01: planned. P01, 90 g, set 16 min, timer runs out. Baseline 2026-11-10-01.
+- 2026-11-10-01: roasted, 90.0 g to 80.8 g (10.2 % loss). No first crack heard and no visible smoke. P01, set 14 min, timer ran out. Judged `light` from photos, slightly uneven. Not tasted.
 
 ## Best settings so far
 

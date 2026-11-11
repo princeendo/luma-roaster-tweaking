@@ -21,14 +21,15 @@ Status values: `pending`, `in-progress`, `blocked`, `deferred`, `completed`.
 
 ### ROAST-01: Baseline roast
 
-- **Status:** in-progress
-- **Plan:** `roasts/2026-11-10-01-costa-rica-la-rosa-washed-2024a.md` (P01, 90 g, set 14 min). Roasted 2026-11-10: weights recorded (10.2 % loss), no first crack heard, judged `light` from photos. Waiting for the times and tasting.
+- **Status:** completed
+- **Result:** `roasts/2026-11-10-01-costa-rica-la-rosa-washed-2024a.md` (P01, 90 g, set 14 min). Roasted 2026-11-10: weights recorded (10.2 % loss), no first crack heard, judged `light` from photos, timer ran out at 14:00. Tasting still to come.
 - **Depends on:** SETUP-02
 - **What:** Plan and record the first roast at about 100 g. Set the timer longer than needed and press Power to cool based on first crack. Log first-crack time and weight loss.
 
 ### ROAST-02: Test whether the time setting changes the curve (H1)
 
-- **Status:** pending
+- **Status:** in-progress
+- **Plan:** `roasts/2026-11-11-01-costa-rica-la-rosa-washed-2024a.md` (P01, 90 g, set 16 min against the 14 min baseline). Waiting for Colin to roast and report.
 - **Depends on:** ROAST-01
 - **What:** Two roasts of the same bean and weight at different set times. See H1 in `reference/roaster-profile.md`.
 - **Why:** The answer decides whether "long timer, manual cool" is a valid way to control the roast.
