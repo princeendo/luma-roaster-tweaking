@@ -21,7 +21,7 @@ environment:
   ambient_humidity_pct: null
   location: null
   outlet: null
-  warm_start: null
+  warm_start: false
   minutes_since_last_roast: null
 
 actual:
@@ -59,7 +59,7 @@ results:
 tasting: []
 
 next_time: "No further time step: 18 min is the P01 maximum. Taste the 14, 16 and 18 min roasts side by side, then choose the direction."
-notes: "Planned for 2026-11-11 as the second roast of the day. If it happens on another day, rename the file and roast_id. expected_first_crack is null because first crack is not audible on this machine. Colin reported that he ran P01 for 18 minutes, recorded as the timer running out. color_change is his estimate (approximately 08:00). roast_level was judged by the agent from his photo. He did not say whether the roaster started cold, so warm_start stays null. Room temperature, sounds, smoke and cooling end were not reported."
+notes: "Planned for 2026-11-11 as the second roast of the day. If it happens on another day, rename the file and roast_id. expected_first_crack is null because first crack is not audible on this machine. Colin reported that he ran P01 for 18 minutes, recorded as the timer running out. color_change is his estimate (approximately 08:00). roast_level was judged by the agent from his photo. He later confirmed that it started several hours after roast 2026-11-11-01, so it was a cold start; the exact gap was not given and minutes_since_last_roast stays null. Room temperature, sounds, smoke and cooling end were not reported."
 ---
 
 # Roast 2026-11-11-02: Costa Rica La Rosa
@@ -114,7 +114,7 @@ Colin's report, 2026-11-11, with a photo of green beans, the 14, 16 and 18 min r
 Reading:
 
 - Recorded as `city_plus` from the color. The 15.3 % weight loss points darker, toward `full_city`, and more so for an old, dry bean. Color in a phone photo is the weaker evidence, so the true level may be `full_city`.
-- Weight loss rose 1.8 points from 14 to 16 min and 3.3 points from 16 to 18 min. The roast speeds up late in the cycle. A warm start would also raise the figure, and it is not known whether this roast started cold.
+- Weight loss rose 1.8 points from 14 to 16 min and 3.3 points from 16 to 18 min. The roast speeds up late in the cycle. This was a cold start, several hours after the previous roast, so a warm roaster is not the cause.
 - H1: color change came at about 07:30 with a 16 min setting and about 08:00 with 18 min. A fully stretched curve would predict about 08:25, and a fixed curve 07:30. Both times are estimates, so the half-minute difference does not settle the question.
 
 ## Tasting
