@@ -1,6 +1,6 @@
 ---
 roast_id: 2026-11-11-01
-status: planned
+status: roasted
 date: 2026-11-11
 bean_id: costa-rica-la-rosa-washed-2024a
 baseline_roast: 2026-11-10-01
@@ -25,18 +25,18 @@ environment:
   minutes_since_last_roast: null
 
 actual:
-  mode: null
-  set_time_min: null
+  mode: P01
+  set_time_min: 16
   p03_set_temp_c: null
   green_weight_g: null
   roasted_weight_g: null
-  heating_end: null
-  heating_end_reason: null
+  heating_end: "16:00"
+  heating_end_reason: timer
   cooling_end: null
   error_codes: []
 
 events:
-  color_change: null
+  color_change: "07:30"
   first_crack_start: null
   first_crack_rolling: null
   first_crack_end: null
@@ -47,7 +47,7 @@ results:
   weight_loss_pct: null
   development_time: null
   development_ratio_pct: null
-  roast_level: null
+  roast_level: city
   color_whole: null
   color_ground: null
   color_method: null
@@ -59,7 +59,7 @@ results:
 tasting: []
 
 next_time: null
-notes: "Planned for 2026-11-11. If the roast happens on another day, rename the file and roast_id to that date. expected_first_crack is null because first crack was not heard in the baseline."
+notes: "Roasted 2026-11-11. expected_first_crack is null because first crack was not heard in the baseline. color_change is Colin's estimate (around 7.5 minutes). roast_level was judged by the agent from Colin's photo and his description, not in person. Program P01 is taken from the plan he followed. Green and roasted weights, room temperature and cooling end were not reported and stay null."
 ---
 
 # Roast 2026-11-11-01: Costa Rica La Rosa
@@ -98,6 +98,17 @@ Elapsed time is 16:00 minus the display.
 1. Unload after standby. Weigh the roasted beans without chaff.
 2. Photograph them beside the baseline roast and the Colombian reference.
 3. Empty the chaff bin. Store airtight with the lid closed.
+
+## What happened
+
+Colin's report, 2026-11-11, with a photo of green beans, roast 2026-11-10-01, this roast and the Colombian light-medium reference side by side:
+
+- The timer ran the full 16 minutes. No early stop.
+- Color change at about 7.5 minutes.
+- No cracks heard. Colin thinks the fan is too loud to hear them.
+- The beans are definitely darker than roast 2026-11-10-01, but not quite as dark as the Colombian reference. In the photo they are a more even medium-light brown, with fewer pale beans.
+
+Reading: one step darker than the baseline, recorded as `city`. The weight loss will confirm or correct that.
 
 ## Tasting
 

@@ -89,6 +89,9 @@ Add entries here as `- <finding> (roasts: <IDs>)`.
 
 - First crack was not heard over the fan with 90 g of a 30-month-old washed coffee. The beans had expanded, opened at the crease and turned brittle, so first crack very probably happened unheard. Do not rely on sound alone to end a roast. Use elapsed time and weight loss as well. (roasts: 2026-11-10-01)
 - P01 with 90 g and a 14 min set time, run to the end of the timer, gave only a `light` roast with 10.2 % weight loss on a 30-month-old washed coffee. This unit is slower than the manual's chart, which shows medium at about 11 min. (roasts: 2026-11-10-01)
+- A longer set time gives a darker roast: P01 at 16 min was clearly darker than P01 at 14 min, same bean, timer run out both times. (roasts: 2026-11-10-01, 2026-11-11-01)
+- Color change (green to yellow or tan) came at about 07:30 on P01 with a 16 min set time. (roasts: 2026-11-11-01)
+- First crack was not heard in either roast. The fan is probably too loud for sound to be a usable signal on this machine. (roasts: 2026-11-10-01, 2026-11-11-01)
 - No visible smoke at 10.2 % weight loss. (roasts: 2026-11-10-01)
 
 ## Open questions
@@ -97,8 +100,8 @@ Each question lists a cheap test. Run the tests early, because the answers chang
 
 | ID | Question | Test | Status |
 |---|---|---|---|
-| H1 | Does the P01/P02 time setting cut off one fixed curve (so 10 min and 14 min settings heat the same way until 10:00)? Or does it stretch the curve to fit the time? | Roast the same bean, same weight, at two set times (for example 10 and 14 min). Compare color change and first-crack times. Same times → one fixed curve. | Open |
-| H2 | When does first crack start on this machine at 100 g? | Every roast: log `first_crack_start`. | Open. Not heard in 2026-11-10-01. |
+| H1 | Does the P01/P02 time setting cut off one fixed curve (so 10 min and 14 min settings heat the same way until 10:00)? Or does it stretch the curve to fit the time? | Roast the same bean, same weight, at two set times (for example 10 and 14 min). Compare color change and first-crack times. Same times → one fixed curve. | Open. 16 min roasted darker than 14 min, which fits either answer. The color-change time is known only for the 16 min roast (about 07:30), so log it on every roast. |
+| H2 | When does first crack start on this machine at 100 g? | Every roast: log `first_crack_start`. | Open. Not heard in 2026-11-10-01 or 2026-11-11-01. |
 | H3 | How does batch size change timing? In fluid-bed roasters a larger batch often moves less and roasts slower, but it can also retain more heat. | After H1, roast one bean at 80 g and 110 g with the same settings. | Open |
 | H4 | How do P01 and P02 differ in speed? | Roast the same bean, same weight and time in each. | Open |
 | H5 | Does P03 hold a steady temperature or ramp? At what setting does it reach first crack within its 10 minutes? | After a P02 drying stage, run P03 at 220 °C and log crack times. Adjust by 10 °C steps. | Open |

@@ -29,7 +29,7 @@ Status values: `pending`, `in-progress`, `blocked`, `deferred`, `completed`.
 ### ROAST-02: Test whether the time setting changes the curve (H1)
 
 - **Status:** in-progress
-- **Plan:** `roasts/2026-11-11-01-costa-rica-la-rosa-washed-2024a.md` (P01, 90 g, set 16 min against the 14 min baseline). Waiting for Colin to roast and report.
+- **Plan:** `roasts/2026-11-11-01-costa-rica-la-rosa-washed-2024a.md` (P01, set 16 min against the 14 min baseline). Roasted 2026-11-11: darker than the baseline, color change about 07:30. H1 is still open because the baseline has no color-change time. Waiting for the weights.
 - **Depends on:** ROAST-01
 - **What:** Two roasts of the same bean and weight at different set times. See H1 in `reference/roaster-profile.md`.
 - **Why:** The answer decides whether "long timer, manual cool" is a valid way to control the roast.

@@ -48,7 +48,7 @@ One pound gives five batches of 90 g (450 g). Each roast changes one thing again
 
 ## Roast history summary
 
-- 2026-11-11-01: planned. P01, 90 g, set 16 min, timer runs out. Baseline 2026-11-10-01.
+- 2026-11-11-01: roasted. P01, set 16 min, timer ran out. Color change about 07:30. Darker than the baseline, lighter than a light-medium reference; judged `city` from a photo. Weights not yet reported. Not tasted.
 - 2026-11-10-01: roasted, 90.0 g to 80.8 g (10.2 % loss). No first crack heard and no visible smoke. P01, set 14 min, timer ran out. Judged `light` from photos, slightly uneven. Not tasted.
 
 ## Best settings so far
