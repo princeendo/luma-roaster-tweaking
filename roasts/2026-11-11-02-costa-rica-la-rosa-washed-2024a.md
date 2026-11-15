@@ -71,6 +71,20 @@ tasting:
     flavor_notes: [grassy]
     overall: 5
     notes: "Brewed side-by-side with 2026-11-10-01 and 2026-11-11-01 using Cosori Juni Barista Mode ('Roast Test 1', ~93 C). Handwritten sheet: 'Same but more body' and 'Weak-ish.' Best of the three roasts so far; zero bitterness (1) even at 15.3 % loss suggests Opus 2 setting 6 was too coarse for a 15 g cone brew."
+  - date: 2026-11-15
+    rest_days: 4
+    brew_method: cosori_juni_cone
+    dose_g: 15.0
+    water_g: 240.0
+    grind: "Fellow Opus 2, 4.5"
+    water_temp_c: 93
+    acidity: null
+    sweetness: null
+    body: null
+    bitterness: null
+    flavor_notes: []
+    overall: null
+    notes: "Second brew on 2026-11-15 keeping the same Juni 'Roast Test 1' profile (15 g : 240 ml, ~93 C) with Fellow Opus 2 moved finer to 4.5. Colin reported: 'Even at 4.5, the flavor is still super weak.' About 46.2 g roasted beans remain for a 30 g test using his normal daily Juni recipe at Opus 3.5."
 
 next_time: "No further time step: 18 min is the P01 maximum. Taste the 14, 16 and 18 min roasts side by side, then choose the direction."
 notes: "Planned for 2026-11-11 as the second roast of the day. If it happens on another day, rename the file and roast_id. expected_first_crack is null because first crack is not audible on this machine. Colin reported that he ran P01 for 18 minutes, recorded as the timer running out. color_change is his estimate (approximately 08:00). roast_level was judged by the agent from his photo. He later confirmed that it started several hours after roast 2026-11-11-01, so it was a cold start; the exact gap was not given and minutes_since_last_roast stays null. Room temperature, sounds, smoke and cooling end were not reported."
@@ -133,7 +147,7 @@ Reading:
 
 ## Tasting
 
-Tasted 2026-11-15 (4 days rest) side by side with 2026-11-10-01 and 2026-11-11-01 on the Cosori Juni (cone basket, Barista Mode profile `Roast Test 1`, 15 g to 240 g, Fellow Opus 2 setting `6`). Closest to drinkable (`body: 3`, `overall: 5/10`), still "weak-ish" with `bitterness: 1`. Re-taste at a finer grind (`4.5`) before planning Batch 4 to separate under-extraction from the 30-month bean age.
+Tasted 2026-11-15 (4 days rest) side by side with 2026-11-10-01 and 2026-11-11-01 on the Cosori Juni (cone basket, Barista Mode profile `Roast Test 1`, 15 g to 240 g, Fellow Opus 2 setting `6`). Closest to drinkable (`body: 3`, `overall: 5/10`), still "weak-ish" with `bitterness: 1`. A second 15 g : 240 g brew at Opus 2 `4.5` was also "super weak." Next: brew `30 g` using Colin's normal daily Juni recipe at Opus 2 `3.5` (~46.2 g remains) to compare directly against his reference Colombian coffee.
 
 ## Next time
 
