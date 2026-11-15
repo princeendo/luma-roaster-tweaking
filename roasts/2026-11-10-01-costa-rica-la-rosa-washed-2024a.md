@@ -1,6 +1,6 @@
 ---
 roast_id: 2026-11-10-01
-status: roasted
+status: tasted
 date: 2026-11-10
 bean_id: costa-rica-la-rosa-washed-2024a
 baseline_roast: null
@@ -56,7 +56,21 @@ results:
   chaff_amount: null
   bean_movement: null
 
-tasting: []
+tasting:
+  - date: 2026-11-15
+    rest_days: 5
+    brew_method: cosori_juni_cone
+    dose_g: 15.0
+    water_g: 240.0
+    grind: "Fellow Opus 2, 6"
+    water_temp_c: 93
+    acidity: 2
+    sweetness: 3
+    body: 1
+    bitterness: 1
+    flavor_notes: [grassy]
+    overall: 2
+    notes: "Brewed side-by-side with 2026-11-11-01 and 2026-11-11-02 using Cosori Juni Barista Mode ('Roast Test 1', ~93 C). Handwritten sheet: 'Grassy ?' and 'Has some flavor but VERY weak.' All three cups were weak at grind 6 (bitterness 1 across the board), so under-extraction likely contributed alongside light roast development."
 
 next_time: "Set time 14 → 16 min, same program and weight, to add development. Planned as 2026-11-11-01."
 notes: "Roasted 2026-11-10. Colin reported that the timer ran out, so heating ended at 14:00, past the planned 13:00 limit. Program P01 and set time 14 are taken from the plan he followed, not stated separately. Event times, room temperature and cooling end were not reported and stay null. roast_level and evenness were judged by the agent from Colin's photos of 2026-11-11, not in person."
@@ -133,6 +147,8 @@ Second report, 2026-11-11 (photos beside green beans and beside a Colombian coff
 Conclusion: the beans expanded and turned brittle, so first crack very probably happened and was not heard. The roast is `light`, with little development after first crack. This agrees with the 10.2 % weight loss for an old, dry bean.
 
 ## Tasting
+
+Tasted 2026-11-15 (5 days rest) side by side with 2026-11-11-01 and 2026-11-11-02 on the Cosori Juni (cone basket, Barista Mode profile `Roast Test 1`, 15 g to 240 g, Fellow Opus 2 setting `6`). Very weak and thin (`body: 1`, `overall: 2/10`) with a possible grassy note, consistent with both underdevelopment at 10.2 % weight loss and under-extraction from the coarse grind.
 
 ## Next time
 

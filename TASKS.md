@@ -38,8 +38,16 @@ Status values: `pending`, `in-progress`, `blocked`, `deferred`, `completed`.
 
 ### TASTE-01: Taste the 14/16/18 min series
 
-- **Status:** pending
+- **Status:** completed
+- **Done:** Tasted 2026-11-15 on the Cosori Juni (`cone`, Barista Mode `Roast Test 1`, 15 g / 240 g, Opus 2 `6`). All three cups were weak with `bitterness: 1`, `acidity: 2`, `sweetness: 3`, and light grassy notes. Body and overall score rose steadily with roast time: 14 min (`2/10`, `body: 1`), 16 min (`3/10`, `body: 2`), 18 min (`5/10`, `body: 3`).
 - **What:** Brew roasts 2026-11-10-01, 2026-11-11-01 and 2026-11-11-02 side by side with one recipe, about 2026-11-15 to 2026-11-17. Record a `tasting` entry in each roast file. The result decides the last two batches of the Costa Rica La Rosa (183.6 g left).
+
+### TASTE-02: Re-taste 18 min (and 16 min) with a finer grind
+
+- **Status:** pending
+- **Depends on:** TASTE-01
+- **What:** Re-brew 2026-11-11-02 (and 2026-11-11-01 if helpful) with Fellow Opus 2 moved finer from `6` to `4.5`, keeping `15 g : 240 g` and the same `Roast Test 1` Juni profile. Log a second `tasting` entry before deciding Batch 4 (183.6 g green left).
+- **Why:** Zero bitterness (`1`) and weak body across all three roasts — even 18 min at 15.3 % loss — points to under-extraction from grind `6` on a small 15 g cone bed. Testing `4.5` separates brew extraction from roast level / 30-month bean age.
 
 ## App
 

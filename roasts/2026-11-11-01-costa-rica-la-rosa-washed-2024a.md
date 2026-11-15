@@ -1,6 +1,6 @@
 ---
 roast_id: 2026-11-11-01
-status: roasted
+status: tasted
 date: 2026-11-11
 bean_id: costa-rica-la-rosa-washed-2024a
 baseline_roast: 2026-11-10-01
@@ -56,7 +56,21 @@ results:
   chaff_amount: null
   bean_movement: null
 
-tasting: []
+tasting:
+  - date: 2026-11-15
+    rest_days: 4
+    brew_method: cosori_juni_cone
+    dose_g: 15.0
+    water_g: 240.0
+    grind: "Fellow Opus 2, 6"
+    water_temp_c: 93
+    acidity: 2
+    sweetness: 3
+    body: 2
+    bitterness: 1
+    flavor_notes: [grassy]
+    overall: 3
+    notes: "Brewed side-by-side with 2026-11-10-01 and 2026-11-11-02 using Cosori Juni Barista Mode ('Roast Test 1', ~93 C). Handwritten sheet: 'Same as before but with more body' and 'Still pretty weak.' Bitterness 1 suggests under-extraction at Opus 2 setting 6."
 
 next_time: "Set time 16 → 18 min, same program and weight, to complete a 14/16/18 series. Planned as 2026-11-11-02."
 notes: "Roasted 2026-11-11. expected_first_crack is null because first crack was not heard in the baseline. color_change is Colin's estimate (around 7.5 minutes). roast_level was judged by the agent from Colin's photo and his description, not in person. Program P01 is taken from the plan he followed. Room temperature and cooling end were not reported and stay null."
@@ -113,6 +127,8 @@ Weights, reported later the same day: 90.0 g green, 79.2 g roasted, 12.0 % loss.
 Reading: one step darker than the baseline, recorded as `city`. The weight loss agrees.
 
 ## Tasting
+
+Tasted 2026-11-15 (4 days rest) side by side with 2026-11-10-01 and 2026-11-11-02 on the Cosori Juni (cone basket, Barista Mode profile `Roast Test 1`, 15 g to 240 g, Fellow Opus 2 setting `6`). Noticeably more body than the 14 min baseline (`body: 2`, `overall: 3/10`), though still weak with the same light grassy character and zero bitterness (`1`). Worth re-tasting at a finer grind (`4.5`) before ruling out 16 min.
 
 ## Next time
 
