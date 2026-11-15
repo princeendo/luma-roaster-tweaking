@@ -146,7 +146,7 @@ Elapsed time is 18:00 minus the display.
 
 ## What happened
 
-Colin's report, 2026-11-11, with a photo of green beans, the 14, 16 and 18 min roasts and the Colombian light-medium reference in a row:
+Colin's report, 2026-11-11, with a photo of green beans, the 14, 16 and 18 min roasts and the Colombian light-medium reference in a row ([comparison photo](assets/2026-11-11-costa-rica-14-16-18-min-series.jpg)):
 
 - P01 ran for 18 minutes.
 - 90.0 g green gave 76.2 g roasted: 15.3 % weight loss. The plan expected 13.5–14.5 %.

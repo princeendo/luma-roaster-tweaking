@@ -48,6 +48,8 @@ One pound gives five batches of 90 g (450 g). Each roast changes one thing again
 
 ## Roast history summary
 
+![Green beans, 14 min, 16 min, 18 min roasts, and Colombian light-medium reference](../roasts/assets/2026-11-11-costa-rica-14-16-18-min-series.jpg)
+
 - 2026-11-11-02: tasted (2026-11-15). P01, set 18 min, timer ran out. 90.0 g to 76.2 g (15.3 % loss). Color change about 08:00. Best of the three cups (`5/10`, `body: 3` at 15 g / Opus `6`), still weak at `4.5`, and "better but still kind of weak/flat" with Colin's daily `30 g` / Opus `3.5` recipe. Confirms this 30-month-old lot is too flat for flavor tuning.
 - 2026-11-11-01: tasted (2026-11-15). P01, set 16 min, timer ran out. Color change about 07:30. 90.0 g to 79.2 g (12.0 % loss). More body than 14 min (`body: 2`, `3/10`), still pretty weak (`bitterness: 1`).
 - 2026-11-10-01: tasted (2026-11-15). P01, set 14 min, timer ran out. 90.0 g to 80.8 g (10.2 % loss). Judged `light`, slightly uneven. Very weak and thin (`body: 1`, `2/10`, `grassy`).
