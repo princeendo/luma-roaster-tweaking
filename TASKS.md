@@ -44,7 +44,8 @@ Status values: `pending`, `in-progress`, `blocked`, `deferred`, `completed`.
 
 ### TASTE-02: Re-taste 18 min with Colin's daily 30 g / Opus 3.5 recipe
 
-- **Status:** pending
+- **Status:** completed
+- **Done:** Brewed 2026-11-15 (`30 g` of 2026-11-11-02 at Opus 2 `3.5` after an intermediate `15 g : 240 g` test at `4.5` was also weak). Better, but still weak/flat — confirming the 30-month-old green coffee is past its prime for flavor evaluation.
 - **Depends on:** TASTE-01
 - **What:** Brew 30 g of 2026-11-11-02 (18 min; ~46.2 g remains) using Fellow Opus 2 at `3.5` and Colin's normal daily Cosori Juni recipe. Log the `tasting` entry and recipe parameters before planning Batch 4 (183.6 g green left).
 - **Why:** Moving from `6` to `4.5` at `15 g : 240 g` was still "super weak." Testing Colin's proven daily `30 g` / `3.5` setup compares directly against his daily Colombian reference and separates Juni bed depth / grind calibration from the 30-month green-bean age.

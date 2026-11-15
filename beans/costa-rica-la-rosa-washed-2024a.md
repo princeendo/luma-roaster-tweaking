@@ -48,10 +48,10 @@ One pound gives five batches of 90 g (450 g). Each roast changes one thing again
 
 ## Roast history summary
 
-- 2026-11-11-02: tasted (2026-11-15). P01, set 18 min, timer ran out. 90.0 g to 76.2 g (15.3 % loss). Color change about 08:00. Best of the three cups (`5/10`, `body: 3`), though still "weak-ish" at Opus 2 `6` (`bitterness: 1`). Re-taste finer before Batch 4.
+- 2026-11-11-02: tasted (2026-11-15). P01, set 18 min, timer ran out. 90.0 g to 76.2 g (15.3 % loss). Color change about 08:00. Best of the three cups (`5/10`, `body: 3` at 15 g / Opus `6`), still weak at `4.5`, and "better but still kind of weak/flat" with Colin's daily `30 g` / Opus `3.5` recipe. Confirms this 30-month-old lot is too flat for flavor tuning.
 - 2026-11-11-01: tasted (2026-11-15). P01, set 16 min, timer ran out. Color change about 07:30. 90.0 g to 79.2 g (12.0 % loss). More body than 14 min (`body: 2`, `3/10`), still pretty weak (`bitterness: 1`).
 - 2026-11-10-01: tasted (2026-11-15). P01, set 14 min, timer ran out. 90.0 g to 80.8 g (10.2 % loss). Judged `light`, slightly uneven. Very weak and thin (`body: 1`, `2/10`, `grassy`).
 
 ## Best settings so far
 
-Tentatively **P01, 18 min, 90 g** (best body and `5/10` overall in TASTE-01), pending a finer-grind re-taste (`TASTE-02`) to check whether Opus 2 `6` under-extracted all three cups.
+**P01, 18 min, 90 g** gave the best body and drinkability (`5/10` vs `3/10` and `2/10`), though the 30-month-old green coffee remains flat even when brewed with Colin's daily `30 g` / Opus `3.5` recipe. Use the remaining 183.6 g green only for machine-calibration tests (H1/H3/H4) or move on to a fresh green lot.
