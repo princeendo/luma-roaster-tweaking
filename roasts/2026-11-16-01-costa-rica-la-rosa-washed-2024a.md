@@ -1,6 +1,6 @@
 ---
 roast_id: 2026-11-16-01
-status: planned
+status: roasted
 date: 2026-11-16
 bean_id: costa-rica-la-rosa-washed-2024a
 baseline_roast: 2026-11-11-01
@@ -25,11 +25,11 @@ environment:
   minutes_since_last_roast: null
 
 actual:
-  mode: null
-  set_time_min: null
+  mode: P01
+  set_time_min: 16
   p03_set_temp_c: null
-  green_weight_g: null
-  roasted_weight_g: null
+  green_weight_g: 70.0
+  roasted_weight_g: 64.4
   heating_end: null
   heating_end_reason: null
   cooling_end: null
@@ -44,7 +44,7 @@ events:
   smoke_noticeable: null
 
 results:
-  weight_loss_pct: null
+  weight_loss_pct: 8.0
   development_time: null
   development_ratio_pct: null
   roast_level: null
@@ -54,12 +54,12 @@ results:
   evenness: null
   defects: []
   chaff_amount: null
-  bean_movement: null
+  bean_movement: good
 
 tasting: []
 
-next_time: null
-notes: "Planned 2026-11-16 as machine-calibration Batch 4 (H3) using the remaining Costa Rica La Rosa green coffee (183.6 g expected in bag; leaving ~113.6 g for a 90 g H1 test next). If roasted on another day, rename the file and roast_id."
+next_time: "After >= 30 min cool-down, run Roast 5 (2026-11-16-02: P01, 90.0 g, 10 min) for H1. On a future fresh bean, test 100-110 g (up from 90 g) to see if higher bed mass speeds heating."
+notes: "Roasted 2026-11-16. Colin confirmed 70.0 g green and 64.4 g roasted (8.0 % loss). Program P01 and 16 min are taken from the plan he followed; heating_end, cooling_end, room temp, and exact timestamps for the first two mid-roast photos were not yet reported and stay null. Photo 3 shows 4:00 on the countdown (12:00 elapsed on a 16:00 run)."
 ---
 
 # Roast 2026-11-16-01: Costa Rica La Rosa
@@ -101,6 +101,17 @@ Baseline is roast [2026-11-11-01](2026-11-11-01-costa-rica-la-rosa-washed-2024a.
 
 ## During the roast (notes)
 
+Colin uploaded three mid-roast photos through the chamber window and reported `70.0 g` green → `64.4 g` roasted (**`8.0 %` weight loss**):
+
+- [Mid-roast photo 1](assets/2026-11-16-01-midroast-1.jpg): beans still green / pale green, sitting well below the MAX fill line.
+- [Mid-roast photo 2](assets/2026-11-16-01-midroast-2.jpg): yellow–tan color change, circulating smoothly (`bean_movement: good`).
+- [Mid-roast photo 3](assets/2026-11-16-01-midroast-3.jpg): display shows `4:00` remaining (`12:00` elapsed on a `16:00` run); beans are light tan / early browning.
+
+**Reading (H3):** Reducing batch size from `90.0 g` (`2026-11-11-01`, `12.0 %` loss) to `70.0 g` at the same `P01`, `16 min` settings dropped weight loss by **4.0 percentage points** (`8.0 %` vs `12.0 %`). On this roaster, a smaller load loses heat retention in the shallower bed and roasts **slower/lighter**, not faster.
+
 ## Tasting
 
 ## Next time
+
+1. Wait at least `30 minutes` for a cold start, then run `2026-11-16-02` (`P01`, `90.0 g`, `10 min`) for **H1**.
+2. Because `70.0 g` roasted much lighter than `90.0 g`, test **higher load** (`100–110 g`, within the `120 g` manual max) on a future fresh coffee to see whether greater bed mass retains more heat and roasts faster.

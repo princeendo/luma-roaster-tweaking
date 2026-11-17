@@ -54,7 +54,8 @@ Status values: `pending`, `in-progress`, `blocked`, `deferred`, `completed`.
 
 - **Status:** in-progress
 - **Depends on:** TASTE-02
-- **Plans:** `roasts/2026-11-16-01-costa-rica-la-rosa-washed-2024a.md` (`P01`, `70.0 g`, `16 min` vs `2026-11-11-01` for H3) and `roasts/2026-11-16-02-costa-rica-la-rosa-washed-2024a.md` (`P01`, `90.0 g`, `10 min` vs `2026-11-11-02` for H1, cold start >= 30 min later). Combined checklist: `print/2026-11-16-test-roasts-sheet.pdf`.
+- **Batch 4 (`2026-11-16-01`, recorded):** `P01`, `70.0 g`, `16 min` → `64.4 g` roasted (`8.0 %` loss vs `12.0 %` at `90.0 g` in `2026-11-11-01`). Smaller load roasted slower/lighter.
+- **Next (`2026-11-16-02`, planned):** `P01`, `90.0 g`, `10 min` vs `2026-11-11-02` for H1 (cold start >= 30 min after Batch 4). Combined checklist: `print/2026-11-16-test-roasts-sheet.pdf`.
 - **What:** Run both machine-calibration tests with the remaining Costa Rica La Rosa green coffee (photos at the checkpoint times + cooled weights; no brewing needed).
 - **Why:** Tasting showed the 30-month-old lot is too flat for cup tuning, so use the remaining green coffee to settle H3 and H1 in `reference/roaster-profile.md`.
 

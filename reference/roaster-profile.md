@@ -95,6 +95,7 @@ Add entries here as `- <finding> (roasts: <IDs>)`.
 - Color change (green to yellow or tan) came at about 07:30 on P01 with a 16 min set time and about 08:00 with an 18 min set time. Both are estimates. (roasts: 2026-11-11-01, 2026-11-11-02)
 - First crack was not heard in either roast. The fan is probably too loud for sound to be a usable signal on this machine. (roasts: 2026-11-10-01, 2026-11-11-01)
 - No visible smoke at 10.2 % weight loss. (roasts: 2026-11-10-01)
+- Smaller batch size roasts slower/lighter, not faster: dropping `green_weight_g` from `90.0 g` to `70.0 g` on `P01`, `16 min` lowered weight loss from `12.0 %` to `8.0 %`, with `bean_movement` staying `good`. The shallower `70 g` bed likely retains less heat as hot air passes through. (roasts: 2026-11-11-01, 2026-11-16-01)
 
 ## Open questions
 
@@ -104,7 +105,7 @@ Each question lists a cheap test. Run the tests early, because the answers chang
 |---|---|---|---|
 | H1 | Does the P01/P02 time setting cut off one fixed curve (so 10 min and 14 min settings heat the same way until 10:00)? Or does it stretch the curve to fit the time? | Roast the same bean, same weight, at two set times (for example 10 and 14 min). Compare color change and first-crack times. Same times → one fixed curve. | Open. Longer set times roast darker, which fits either answer. Color change was about 07:30 at 16 min and about 08:00 at 18 min; a fixed curve predicts 07:30 and a fully stretched one about 08:25. The estimates are too rough to decide. A sharper test: 10 min against 18 min, timing color change to the second. |
 | H2 | When does first crack start on this machine at 100 g? | Every roast: log `first_crack_start`. | Open. Not heard in 2026-11-10-01 or 2026-11-11-01. |
-| H3 | How does batch size change timing? In fluid-bed roasters a larger batch often moves less and roasts slower, but it can also retain more heat. | After H1, roast one bean at 80 g and 110 g with the same settings. | Open |
+| H3 | How does batch size change timing? In fluid-bed roasters a larger batch often moves less and roasts slower, but it can also retain more heat. | After H1, roast one bean at 80 g and 110 g with the same settings. | Partially answered (70 vs 90 g): `70 g` at `P01`, `16 min` lost `8.0 %` vs `12.0 %` at `90 g` (`2026-11-16-01`), so smaller batches roast slower/lighter. Still untested above `90 g` (e.g., `105–110 g`) to see where heat retention peaks before circulation stalls. |
 | H4 | How do P01 and P02 differ in speed? | Roast the same bean, same weight and time in each. | Open |
 | H5 | Does P03 hold a steady temperature or ramp? At what setting does it reach first crack within its 10 minutes? | After a P02 drying stage, run P03 at 220 °C and log crack times. Adjust by 10 °C steps. | Open |
 | H6 | How much does a warm start (second batch soon after the first) speed up the roast? | Roast two identical batches back to back and compare event times. | Open |
