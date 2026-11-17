@@ -43,8 +43,8 @@ One pound gives five batches of 90 g (450 g). Each roast changes one thing again
 | 1 | Baseline. Find first crack. | P01, 90 g, set 14 min (timer ran out; crack not heard) | H2 |
 | 2 | Same roast with a longer set time, for more development | P01, 90 g, set 16 min, timer runs out | H1 |
 | 3 | Top of the 14/16/18 min series | P01, 90 g, set 18 min, timer runs out | H1, darkest P01 roast |
-| 4 | Decided by tasting the 14/16/18 min series: an in-between time (15 or 17 min) or a P02 comparison | P01 or P02, 90 g | Best time, or H4 |
-| 5 | Repeat the best-tasting roast of the series | Best settings so far | Repeatability |
+| 4 | Test whether a smaller load speeds up the roast (against 2026-11-11-01) | P01, 70 g, set 16 min (planned as 2026-11-16-01) | H3 |
+| 5 | Sharp H1 test: fixed vs. stretched curve (leaves ~23.6 g) | P01, 90 g, set 10 min | H1 |
 
 ## Roast history summary
 
