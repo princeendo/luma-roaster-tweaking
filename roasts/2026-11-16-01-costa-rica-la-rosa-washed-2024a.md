@@ -89,15 +89,15 @@ Baseline is roast [2026-11-11-01](2026-11-11-01-costa-rica-la-rosa-washed-2024a.
 
 1. Hold Power `3 s`, choose `P01`, press Power, turn to `16`, press Power, and start the stopwatch. Stay with the roaster the whole cycle (**manual**).
 2. Watch `bean_movement` early and mid-roast (do the `70 g` beans circulate smoothly or bounce high/fly?).
-3. Note approximate elapsed time of `color_change` (green to yellow/tan) and any `smoke_noticeable` or faint cracks.
+3. Snap quick photos looking into the chamber at `06:00`, `08:00`, and `12:00`, and note approximate `color_change` and any `smoke_noticeable` or faint cracks.
 4. Let the timer run out at `16:00`. Press Power early only on second-crack sounds, heavy smoke, or an oily sheen.
 5. Wait until cooling finishes and the unit returns to standby before unloading (**manual**). Record `cooling_end`.
 
 ## After the roast
 
 1. Weigh the cooled roasted beans without chaff (`roasted_weight_g`).
-2. Note chaff amount, color evenness, and any scorching or tipping.
-3. Empty the chaff bin. (No need to rest or brew this test batch unless you want to — photograph beside the `16 min` notes if helpful.)
+2. Take one photo of the cooled beans and note chaff amount, color evenness, and any scorching or tipping.
+3. Empty the chaff bin (no brewing needed).
 
 ## During the roast (notes)
 

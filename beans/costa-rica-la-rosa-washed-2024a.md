@@ -44,7 +44,7 @@ One pound gives five batches of 90 g (450 g). Each roast changes one thing again
 | 2 | Same roast with a longer set time, for more development | P01, 90 g, set 16 min, timer runs out | H1 |
 | 3 | Top of the 14/16/18 min series | P01, 90 g, set 18 min, timer runs out | H1, darkest P01 roast |
 | 4 | Test whether a smaller load speeds up the roast (against 2026-11-11-01) | P01, 70 g, set 16 min (planned as 2026-11-16-01) | H3 |
-| 5 | Sharp H1 test: fixed vs. stretched curve (leaves ~23.6 g) | P01, 90 g, set 10 min | H1 |
+| 5 | Sharp H1 test: fixed vs. stretched curve (leaves ~23.6 g) | P01, 90 g, set 10 min (planned as 2026-11-16-02) | H1 |
 
 ## Roast history summary
 

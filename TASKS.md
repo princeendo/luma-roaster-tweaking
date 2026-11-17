@@ -50,13 +50,13 @@ Status values: `pending`, `in-progress`, `blocked`, `deferred`, `completed`.
 - **What:** Brew 30 g of 2026-11-11-02 (18 min; ~46.2 g remains) using Fellow Opus 2 at `3.5` and Colin's normal daily Cosori Juni recipe. Log the `tasting` entry and recipe parameters before planning Batch 4 (183.6 g green left).
 - **Why:** Moving from `6` to `4.5` at `15 g : 240 g` was still "super weak." Testing Colin's proven daily `30 g` / `3.5` setup compares directly against his daily Colombian reference and separates Juni bed depth / grind calibration from the 30-month green-bean age.
 
-### ROAST-03: Test smaller batch size (H3)
+### ROAST-03: Test smaller batch size (H3) and curve shape (H1)
 
 - **Status:** in-progress
 - **Depends on:** TASTE-02
-- **Plan:** `roasts/2026-11-16-01-costa-rica-la-rosa-washed-2024a.md` (P01, 70.0 g, set 16 min against the 90.0 g baseline `2026-11-11-01`). Printable checklist: `print/2026-11-16-01-roast-sheet.pdf`.
-- **What:** Run a 70.0 g batch on P01 for 16 min using the remaining Costa Rica La Rosa green coffee (leaving ~113.6 g for an H1 `10 min` test at 90.0 g).
-- **Why:** Tasting showed the 30-month-old lot is too flat for cup tuning, so use the remaining green coffee for machine calibration. Answers H3 in `reference/roaster-profile.md`.
+- **Plans:** `roasts/2026-11-16-01-costa-rica-la-rosa-washed-2024a.md` (`P01`, `70.0 g`, `16 min` vs `2026-11-11-01` for H3) and `roasts/2026-11-16-02-costa-rica-la-rosa-washed-2024a.md` (`P01`, `90.0 g`, `10 min` vs `2026-11-11-02` for H1, cold start >= 30 min later). Combined checklist: `print/2026-11-16-test-roasts-sheet.pdf`.
+- **What:** Run both machine-calibration tests with the remaining Costa Rica La Rosa green coffee (photos at the checkpoint times + cooled weights; no brewing needed).
+- **Why:** Tasting showed the 30-month-old lot is too flat for cup tuning, so use the remaining green coffee to settle H3 and H1 in `reference/roaster-profile.md`.
 
 ## App
 
