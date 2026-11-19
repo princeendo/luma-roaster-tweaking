@@ -59,6 +59,14 @@ Status values: `pending`, `in-progress`, `blocked`, `deferred`, `completed`.
 - **What:** Run both machine-calibration tests with the remaining Costa Rica La Rosa green coffee (photos at the checkpoint times + cooled weights; no brewing needed).
 - **Why:** Tasting showed the 30-month-old lot is too flat for cup tuning, so use the remaining green coffee to settle H3 and H1 in `reference/roaster-profile.md`.
 
+### ROAST-04: First roast of the Colombia Huila Santa Maria (fresh lot)
+
+- **Status:** in-progress
+- **Planned:** `roasts/2026-11-19-01-colombia-huila-santa-maria-washed-2026a.md` (`P01`, `108.0 g`, `18 min`, target about 90 g roasted). Printable sheet: `print/2026-11-19-01-roast-sheet.pdf`.
+- **What:** Roast, record, rest at least 4 days, then taste with Colin's daily Juni recipe (`30 g`, Opus 2 `3.5`).
+- **Why:** First fresh coffee on this machine, so the first cup results worth tuning against. Also the first load above 90 g (H3).
+- **Order:** Cold start. If 2026-11-16-02 (ROAST-03) runs the same day, roast this one first and wait at least 30 min.
+
 ## App
 
 ### APP-01: Design the roast companion app
