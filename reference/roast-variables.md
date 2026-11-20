@@ -38,8 +38,8 @@ Elapsed time runs from the start of heating, not from power-on. The roaster's di
 
 | Key | Values | Meaning |
 |---|---|---|
-| `mode` | `P01`, `P02`, `P03`, `P02+P03` | Roaster program. `P02+P03` is the manual's two-stage method. |
-| `set_time_min` | 2–18 | Time setting for P01 or P02. For `P02+P03`, the P02 stage time. `null` for P03 alone. |
+| `mode` | `P01`, `P02`, `P03`, `P02+P03`, `P01+P03` | Roaster program. `P02+P03` is the manual's two-stage method. `P01+P03` is the same idea with P01 as the first stage (not in the manual). |
+| `set_time_min` | 2–18 | Time setting for P01 or P02. For `P02+P03` or `P01+P03`, the first stage's time. `null` for P03 alone. |
 | `p03_set_temp_c` | 140–240 | Temperature setting for P03. P03 always heats for 10 minutes. |
 | `green_weight_g` | ≤ 120 | Green coffee weighed before loading. |
 | `target_roast_level` | see [roast levels](#roast-levels) | Plan only. |
