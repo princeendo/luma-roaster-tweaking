@@ -99,3 +99,6 @@ If these sources provide a reasonable answer to an ordinary engineering question
 ## Repository-Specific Preferences
 
 Add confirmed repository-specific preferences and explicit overrides here. Keep candidates in `LEARNINGS.md` until they have enough evidence to promote.
+
+- **Roast level.** Colin prefers light to light-medium roasts and wants nothing darker than medium (stated 2026-11-19). Default `target_roast_level` to `city` or `city_plus`, and go no darker than `full_city`. A seller's darker suggestion (for example "into 2nd crack") does not override this.
+- **Stop rules without sound.** Colin cannot hear first or second crack over the roaster's fan. Stop rules use smoke, bean color against an earlier roast, oily sheen and weight loss, never crack sounds (stated 2026-11-19).

@@ -58,8 +58,8 @@ results:
 
 tasting: []
 
-next_time: "Taste beside 2026-11-19-01 and 2026-11-19-03 before the next roast. If darker is wanted, record the garage temperature first; P03 at its maximum added only 3.1 % after a hot P01 stage."
-notes: "Roasted 2026-11-19. Stage 1: 108.0 g to 96.0 g (11.1 %), catcher beans included. 3.5 g spilled on the floor while moving hot beans quickly between stages, so stage 2 started with 92.5 g and ended at 89.6 g (3.1 %), with a negligible amount in the chaff catcher. weight_loss_pct is null because the spill breaks the formula; the spill-adjusted total is about 13.9 % (89.6 x 96.0 / 92.5 = 93.0 g from 108.0 g). Stage 1 cooling was skipped (hot beans into P03). Cracks were not heard; Colin cannot hear them over the fan. p03_set_temp_c is taken from the plan (464 °F) and was not separately confirmed; heating_end_reason and event times were not reported. Planned 2026-11-19. Two-stage roast in one file. Event times: color change from the start of stage 1; first crack, second crack, smoke, heating_end and cooling_end from the start of stage 2 (P03). Record the weight between stages here if taken. Confirm the P03 knob reads 464 before pressing Power, and photograph it. No printable sheet. If roasted on another day, rename the file and roast_id."
+next_time: "Taste beside 2026-11-19-01 and 2026-11-19-03 before the next roast. Do not go darker: Colin prefers light to light-medium, nothing past medium."
+notes: "Roasted 2026-11-19. Stage 1: 108.0 g to 96.0 g (11.1 %), catcher beans included. 3.5 g spilled on the floor while moving hot beans quickly between stages, so stage 2 started with 92.5 g and ended at 89.6 g (3.1 %), with a negligible amount in the chaff catcher. weight_loss_pct is null because the spill breaks the formula; the spill-adjusted total is about 13.9 % (89.6 x 96.0 / 92.5 = 93.0 g from 108.0 g). Stage 1 cooling was skipped (hot beans into P03). Cracks were not heard; Colin cannot hear them over the fan. p03_set_temp_c is taken from the plan (464 °F) and was not separately confirmed; heating_end_reason and event times were not reported. Planned 2026-11-19. Two-stage roast in one file. Colin later estimated the garage at 60–70 °F (16–21 °C) during these roasts; ambient_temp_c stays null because no reading was taken. Event times: color change from the start of stage 1; first crack, second crack, smoke, heating_end and cooling_end from the start of stage 2 (P03). Record the weight between stages here if taken. Confirm the P03 knob reads 464 before pressing Power, and photograph it. No printable sheet. If roasted on another day, rename the file and roast_id."
 ---
 
 # Roast 2026-11-19-04: Colombia Huila Santa Maria
@@ -124,4 +124,4 @@ Colin's mid-roast report, 2026-11-19:
 
 ## Next time
 
-Taste all three before roasting again. If the cup wants more roast, check the garage temperature first: cold intake air lowers the heat a small air roaster can reach (**external guidance**).
+Taste all three before roasting again. Colin prefers light to light-medium and nothing darker than medium, so this roast is already at the dark end of what he wants; no darker roast is needed. The garage was about 60–70 °F (16–21 °C), an ordinary room temperature.

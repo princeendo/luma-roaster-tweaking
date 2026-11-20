@@ -66,7 +66,7 @@ Status values: `pending`, `in-progress`, `blocked`, `deferred`, `completed`.
 - **Roast 2 (`2026-11-19-02`, roasted):** `P02`, `108.0 g`, `18 min` → `101.4 g` (`6.1 %`; 6.8 g of it was blown into the chaff catcher). Dried but not browned, so P02 is a drying program (H4 answered once). The beans are kept to finish with P03.
 - **Roast 3 (`2026-11-19-03`, roasted):** `P03` at 446 or 464 °F (not sure which; planned 446 °F), finishing roast 2's `101.4 g` → `94.4 g` (`12.6 %` total from green). `light` and very even, lighter than roast 1.
 - **Roast 4 (`2026-11-19-04`, roasted):** `P01` 18 min then `P03` 464 °F, about `13.9 %` total (spill-adjusted), `city_plus`, darkest so far.
-- **Next:** taste 2026-11-19-01, -03 and -04 side by side on or after 2026-11-23 and record `tasting` entries. Record the garage temperature at the next roast.
+- **Next:** taste 2026-11-19-01, -03 and -04 side by side on or after 2026-11-23 and record `tasting` entries. Target `city` to `city_plus` (Colin prefers light to light-medium, nothing darker than medium); tasting picks the best of the three. Garage is about 60–70 °F; record a reading at the next roast.
 - **What:** Roast, record, rest at least 4 days, then taste with Colin's daily Juni recipe (`30 g`, Opus 2 `3.5`).
 - **Why:** First fresh coffee on this machine, so the first cup results worth tuning against. Also the first load above 90 g (H3).
 - **Order:** Cold start. If 2026-11-16-02 (ROAST-03) runs the same day, roast this one first and wait at least 30 min.

@@ -33,7 +33,7 @@ From the bag label (photographed 2026-11-19): Happy Mug, 2 lb, village Santa Mar
 - **Age.** The lot arrived in September 2026, so it is about 2 months old. This is the first fresh coffee roasted on this machine. The Costa Rica La Rosa lot was about 30 months old and tasted flat however it was brewed, so cup results from this lot are the first ones worth tuning against.
 - **Remaining weight is assumed.** The record starts at the labeled 2 lb (907.2 g). Correct `green_weight_remaining_g` if a weigh-in shows otherwise.
 - **Program.** Washed coffee, so P01 (**manual**).
-- **Roast target.** The seller's "a few snaps into 2nd crack" is `full_city_plus`. At 90 g, this roaster's longest P01 setting (18 min) has not yet reached second crack (**observed**, 2026-11-11-02), so the first roast may end lighter than the seller suggests.
+- **Roast target.** The seller suggests "a few snaps into 2nd crack" (`full_city_plus`), but Colin prefers light to light-medium and nothing darker than medium (stated 2026-11-19). The target for this bean is `city` to `city_plus`, which roasts 2026-11-19-01, -03 and -04 already span. Tasting decides between them.
 - **`screen_size`.** "Excelso" is the Colombian export grade, about screen 15–16 (**external guidance**). The label gives the grade, not a measured screen size.
 
 ## Roast history summary
