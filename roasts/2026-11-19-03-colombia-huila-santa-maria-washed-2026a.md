@@ -1,6 +1,6 @@
 ---
 roast_id: 2026-11-19-03
-status: planned
+status: roasted
 date: 2026-11-19
 bean_id: colombia-huila-santa-maria-washed-2026a
 baseline_roast: 2026-11-19-01
@@ -25,11 +25,11 @@ environment:
   minutes_since_last_roast: null
 
 actual:
-  mode: null
+  mode: P03
   set_time_min: null
-  p03_set_temp_c: null
-  green_weight_g: null
-  roasted_weight_g: null
+  p03_set_temp_c: 230
+  green_weight_g: 101.4
+  roasted_weight_g: 94.4
   heating_end: null
   heating_end_reason: null
   cooling_end: null
@@ -44,22 +44,22 @@ events:
   smoke_noticeable: null
 
 results:
-  weight_loss_pct: null
+  weight_loss_pct: 6.9
   development_time: null
   development_ratio_pct: null
-  roast_level: null
-  color_whole: null
+  roast_level: light
+  color_whole: "even light caramel brown; matte; lighter on average than 2026-11-19-01"
   color_ground: null
-  color_method: null
-  evenness: null
+  color_method: "by eye from one indoor phone photo beside 2026-11-19-01"
+  evenness: even
   defects: []
   chaff_amount: null
   bean_movement: null
 
 tasting: []
 
-next_time: null
-notes: "Planned 2026-11-19. Colin found the P03 knob bottoms out at 284, so this unit shows P03 temperatures in °F (284 °F = 140 °C): set the knob to 446 °F for 230 °C. p03_set_temp_c stays in °C. Second stage of a two-stage roast: the input is the 101.4 g of partly dried beans from 2026-11-19-02 (108.0 g green before P02), not fresh green coffee, so green_weight_g is 101.4 and weight_loss_pct is against that. Record the total loss against 108.0 g here as well, since that is the figure comparable with 2026-11-19-01. No printable sheet. If roasted on another day, rename the file and roast_id."
+next_time: "More heat in the P03 stage: 240 °C (464 °F), the maximum. Taste beside 2026-11-19-01 first if possible."
+notes: "Roasted 2026-11-19. Colin reported 94.4 g out with a photo beside 2026-11-19-01. weight_loss_pct (6.9) is against the 101.4 g input; total loss from the original 108.0 g green is 12.6 %. Program and 446 °F (230 °C) are taken from the plan he followed; event times, heating_end, cracks, chaff and whether beans reached the chaff catcher were not reported. roast_level and evenness are judged from the photo. Planned 2026-11-19. Colin found the P03 knob bottoms out at 284, so this unit shows P03 temperatures in °F (284 °F = 140 °C): set the knob to 446 °F for 230 °C. p03_set_temp_c stays in °C. Second stage of a two-stage roast: the input is the 101.4 g of partly dried beans from 2026-11-19-02 (108.0 g green before P02), not fresh green coffee, so green_weight_g is 101.4 and weight_loss_pct is against that. Record the total loss against 108.0 g here as well, since that is the figure comparable with 2026-11-19-01. No printable sheet. If roasted on another day, rename the file and roast_id."
 ---
 
 # Roast 2026-11-19-03: Colombia Huila Santa Maria
@@ -101,6 +101,17 @@ Baseline is roast [2026-11-19-01](2026-11-19-01-colombia-huila-santa-maria-washe
 
 ## During the roast (notes)
 
+Colin's report, 2026-11-19: `94.4 g` out, with a photo of this roast (left) beside 2026-11-19-01 (right) ([photo](assets/2026-11-19-03-vs-01.jpg)).
+
+- **Weight.** `101.4 → 94.4 g` is `6.9 %` in this stage. From the original `108.0 g` green the total is `12.6 %`, below P01's `14.0 %` (**observed**, 2026-11-19-01) and short of the planned `15–17 %`.
+- **Color.** An even, light caramel brown with no dark mottling, and lighter on average than the P01 roast. Judged `light`. Much more even than 2026-11-19-01, which has dark patches beside pale beans. No oil, no sign of second crack.
+- **What it says about P03.** 230 °C for 10 minutes on partly dried beans roasted gently and evenly, but not far enough. It did not reach the planned `full_city`. Whether it reached first crack is not known.
+- **Evenness.** Drying first (P02) and then roasting (P03) gave a far more even color than P01 alone. Drying the beans evenly before browning starts is a common way to reduce mottling (**external guidance**).
+
+![Roast 2026-11-19-03 (left) beside 2026-11-19-01 (right)](assets/2026-11-19-03-vs-01.jpg)
+
 ## Tasting
 
 ## Next time
+
+Raise the P03 stage to 240 °C (464 °F), the maximum. The color was even but too light at 230 °C.

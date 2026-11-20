@@ -38,7 +38,7 @@ From the bag label (photographed 2026-11-19): Happy Mug, 2 lb, village Santa Mar
 
 ## Roast history summary
 
-- 2026-11-19-03: planned. P03, 230 °C, 10 min, finishing the 101.4 g that 2026-11-19-02 dried (manual's P02 + P03 method). Tests H5.
+- 2026-11-19-03: roasted. P03, 230 °C (446 °F), 10 min, finishing the 101.4 g that 2026-11-19-02 dried. 101.4 g to 94.4 g (6.9 %; 12.6 % from the original 108.0 g). `light`, very even, lighter than 2026-11-19-01.
 - 2026-11-19-02: P02, set 18 min, 108.0 g to 101.4 g (94.6 g in the chamber, 6.8 g blown into the chaff catcher), 6.1 % loss. Dried, not roasted: pale straw, no browning. P02 runs much cooler than P01. Batch kept to finish with P03.
 - 2026-11-19-01: roasted. P01, set 18 min, 107.9 g to 92.8 g (14.0 % loss). `city`, mottled and uneven, no oil. No event times recorded. Tasting due about 2026-11-23.
 
