@@ -59,7 +59,7 @@ results:
 tasting: []
 
 next_time: "Finish this same batch with P03 (the manual's P02 + P03 method), which also tests H5. Do not use P02 alone to roast."
-notes: "Roasted 2026-11-19. Colin reported 108.0 g green and 94.6 g after the cycle (12.4 % loss) with one photo, and put 'roasted' in quotes. The beans came out dried but not browned, so roast_level stays null (below cinnamon). Program P02 and 18 min are taken from the plan he followed; event times, heating_end, error codes, chaff and bean movement were not reported. Planned 2026-11-19. No printable sheet; Colin asked to skip it. Must be a cold start. If roasted on another day, rename the file and roast_id."
+notes: "Roasted 2026-11-19. Colin reported 108.0 g green and 94.6 g after the cycle (12.4 % loss) with one photo, and put 'roasted' in quotes. The beans came out dried but not browned, so roast_level stays null (below cinnamon). Program P02 and 18 min are taken from the plan he followed; event times, heating_end, error codes and the chaff amount were not reported. Colin later added that many beans were blown up into the chaff catcher. It is not yet known whether 94.6 g includes those beans; if it does not, weight_loss_pct is overstated. Planned 2026-11-19. No printable sheet; Colin asked to skip it. Must be a cold start. If roasted on another day, rename the file and roast_id."
 ---
 
 # Roast 2026-11-19-02: Colombia Huila Santa Maria
@@ -92,6 +92,7 @@ Colin's report, 2026-11-19: `108.0 g` in, `94.6 g` out, one photo ([photo](asset
 
 - **Result.** The beans dried but did not roast. They are pale straw to off-white, paler than the green coffee, with no browning anywhere. `12.4 %` weight loss is about the water content of fresh green coffee (around 10–12 %, **external guidance**), so the cycle drove out the water and little else.
 - **What it says about P02.** P02 runs far cooler than P01 on this unit. The same bean, load and time on P01 lost `14.0 %` and reached `city` (**observed**, 2026-11-19-01). This fits the manual, which uses a 10-minute P02 cycle to "dehydrate the beans and remove chaff" before a P03 roast (**manual**). P02 seems to be a drying program with more airflow and less heat, not a stronger roast program. One roast, so this is **observed** once, not yet repeated.
+- **Beans blown into the chaff catcher.** Colin added that many beans ended up in the chaff catcher. That means P02 blows much harder than P01, which did not do this at the same load (**observed**, 2026-11-19-01). More air through the same heater gives cooler air, and beans sitting in the catcher are out of the hot airflow, which explains the drying-only result. The manual's description fits: P02 is for beans with a lot of chaff, which needs a strong airflow to clear.
 - **Not a fault, probably.** Losing 13.4 g of water takes real heat, so the heater did run. Still worth confirming there was no error code and that the timer ran to 18:00.
 - **The batch is not wasted.** It is now in the state the manual's P02 + P03 method expects after its first stage. Finishing it with P03 also answers H5.
 
