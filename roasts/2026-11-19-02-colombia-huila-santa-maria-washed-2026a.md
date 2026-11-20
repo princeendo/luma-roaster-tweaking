@@ -1,6 +1,6 @@
 ---
 roast_id: 2026-11-19-02
-status: planned
+status: roasted
 date: 2026-11-19
 bean_id: colombia-huila-santa-maria-washed-2026a
 baseline_roast: 2026-11-19-01
@@ -25,11 +25,11 @@ environment:
   minutes_since_last_roast: null
 
 actual:
-  mode: null
-  set_time_min: null
+  mode: P02
+  set_time_min: 18
   p03_set_temp_c: null
-  green_weight_g: null
-  roasted_weight_g: null
+  green_weight_g: 108.0
+  roasted_weight_g: 94.6
   heating_end: null
   heating_end_reason: null
   cooling_end: null
@@ -44,22 +44,22 @@ events:
   smoke_noticeable: null
 
 results:
-  weight_loss_pct: null
+  weight_loss_pct: 12.4
   development_time: null
   development_ratio_pct: null
   roast_level: null
-  color_whole: null
+  color_whole: "pale straw to off-white; no browning (dried, not roasted)"
   color_ground: null
-  color_method: null
-  evenness: null
-  defects: []
+  color_method: "by eye from one indoor phone photo"
+  evenness: even
+  defects: [underdeveloped]
   chaff_amount: null
   bean_movement: null
 
 tasting: []
 
-next_time: null
-notes: "Planned 2026-11-19. No printable sheet; Colin asked to skip it. Must be a cold start. If roasted on another day, rename the file and roast_id."
+next_time: "Finish this same batch with P03 (the manual's P02 + P03 method), which also tests H5. Do not use P02 alone to roast."
+notes: "Roasted 2026-11-19. Colin reported 108.0 g green and 94.6 g after the cycle (12.4 % loss) with one photo, and put 'roasted' in quotes. The beans came out dried but not browned, so roast_level stays null (below cinnamon). Program P02 and 18 min are taken from the plan he followed; event times, heating_end, error codes, chaff and bean movement were not reported. Planned 2026-11-19. No printable sheet; Colin asked to skip it. Must be a cold start. If roasted on another day, rename the file and roast_id."
 ---
 
 # Roast 2026-11-19-02: Colombia Huila Santa Maria
@@ -88,6 +88,17 @@ Baseline is roast [2026-11-19-01](2026-11-19-01-colombia-huila-santa-maria-washe
 
 ## During the roast (notes)
 
+Colin's report, 2026-11-19: `108.0 g` in, `94.6 g` out, one photo ([photo](assets/2026-11-19-02-roasted.jpg)), and "What happened here?"
+
+- **Result.** The beans dried but did not roast. They are pale straw to off-white, paler than the green coffee, with no browning anywhere. `12.4 %` weight loss is about the water content of fresh green coffee (around 10–12 %, **external guidance**), so the cycle drove out the water and little else.
+- **What it says about P02.** P02 runs far cooler than P01 on this unit. The same bean, load and time on P01 lost `14.0 %` and reached `city` (**observed**, 2026-11-19-01). This fits the manual, which uses a 10-minute P02 cycle to "dehydrate the beans and remove chaff" before a P03 roast (**manual**). P02 seems to be a drying program with more airflow and less heat, not a stronger roast program. One roast, so this is **observed** once, not yet repeated.
+- **Not a fault, probably.** Losing 13.4 g of water takes real heat, so the heater did run. Still worth confirming there was no error code and that the timer ran to 18:00.
+- **The batch is not wasted.** It is now in the state the manual's P02 + P03 method expects after its first stage. Finishing it with P03 also answers H5.
+
+![Roast 2026-11-19-02 after the P02 cycle](assets/2026-11-19-02-roasted.jpg)
+
 ## Tasting
 
 ## Next time
+
+Finish these 94.6 g with P03 as a second stage. Do not use P02 alone to roast on this machine.

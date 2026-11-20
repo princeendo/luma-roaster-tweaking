@@ -6,7 +6,7 @@ supplier: Happy Mug
 supplier_url: https://happymugcoffee.com
 purchase_date: null
 green_weight_purchased_g: 907.2
-green_weight_remaining_g: 799.3
+green_weight_remaining_g: 691.3
 cost_total: null
 origin_country: Colombia
 region: Huila (village of Santa Maria)
@@ -38,7 +38,7 @@ From the bag label (photographed 2026-11-19): Happy Mug, 2 lb, village Santa Mar
 
 ## Roast history summary
 
-- 2026-11-19-02: planned. P02, set 18 min, 108.0 g. Tests H4 (P02 vs P01) against 2026-11-19-01.
+- 2026-11-19-02: P02, set 18 min, 108.0 g to 94.6 g (12.4 % loss). Dried, not roasted: pale straw, no browning. P02 runs much cooler than P01. Batch kept to finish with P03.
 - 2026-11-19-01: roasted. P01, set 18 min, 107.9 g to 92.8 g (14.0 % loss). `city`, mottled and uneven, no oil. No event times recorded. Tasting due about 2026-11-23.
 
 ## Best settings so far
