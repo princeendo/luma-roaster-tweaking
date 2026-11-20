@@ -41,7 +41,7 @@ From the bag label (photographed 2026-11-19): Happy Mug, 2 lb, village Santa Mar
 - 2026-11-19-04: planned. P01 18 min, then P03 at 464 °F (240 °C), 108.0 g. Aiming for `full_city_plus`.
 - 2026-11-19-03: roasted. P03 at 446 or 464 °F (230 or 240 °C; Colin is not sure which), 10 min, finishing the 101.4 g that 2026-11-19-02 dried. 101.4 g to 94.4 g (6.9 %; 12.6 % from the original 108.0 g). `light`, very even, lighter than 2026-11-19-01.
 - 2026-11-19-02: P02, set 18 min, 108.0 g to 101.4 g (94.6 g in the chamber, 6.8 g blown into the chaff catcher), 6.1 % loss. Dried, not roasted: pale straw, no browning. P02 runs much cooler than P01. Batch kept to finish with P03.
-- 2026-11-19-01: roasted. P01, set 18 min, 107.9 g to 92.8 g (14.0 % loss). `city`, mottled and uneven, no oil. No event times recorded. Tasting due about 2026-11-23.
+- 2026-11-19-01: roasted. P01, set 18 min, 107.9 g to 92.8 g kept; the chaff-catcher beans were discarded unweighed, so the true loss is under 14.0 %. `city`, mottled and uneven, no oil. No event times recorded. Tasting due about 2026-11-23.
 
 ## Best settings so far
 

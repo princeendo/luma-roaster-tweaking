@@ -45,7 +45,7 @@ Elapsed time runs from the start of heating, not from power-on. The roaster's di
 | `target_roast_level` | see [roast levels](#roast-levels) | Plan only. |
 | `expected_first_crack` | mm:ss | Plan only. Predicted first-crack start. |
 | `stop_rule` | text | Plan only. When to press Power to start cooling early, if at all. |
-| `roasted_weight_g` | number | Actual only. Weight after cooling and chaff removal. |
+| `roasted_weight_g` | number | Actual only. Weight after cooling and chaff removal, including any beans blown into the chaff catcher. Weigh catcher beans separately too and note them in `notes`; they are often less roasted. |
 | `heating_end` | mm:ss | Actual only. When heating stopped. |
 | `heating_end_reason` | `timer`, `manual_cool` | Actual only. Whether the countdown ran out or Power was pressed. |
 | `cooling_end` | mm:ss | Actual only. When the unit returned to standby. |

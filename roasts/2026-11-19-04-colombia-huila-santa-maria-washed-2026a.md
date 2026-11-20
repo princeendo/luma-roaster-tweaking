@@ -19,7 +19,7 @@ plan:
 environment:
   ambient_temp_c: null
   ambient_humidity_pct: null
-  location: null
+  location: garage
   outlet: null
   warm_start: false
   minutes_since_last_roast: null
@@ -104,6 +104,13 @@ Baseline is roast [2026-11-19-01](2026-11-19-01-colombia-huila-santa-maria-washe
 3. Store airtight and rest at least 4 days.
 
 ## During the roast (notes)
+
+Colin's mid-roast report, 2026-11-19:
+
+- **After stage 1 (P01, 18 min):** `108.0 g` → `96.0 g`, `11.1 %` loss ([photo](assets/2026-11-19-04-after-p01.jpg)). Light to light-medium and mottled, like roast 2026-11-19-01, but that roast lost `14.0 %` (`92.8 g`) at the same settings. Colin confirmed a cold start (at least 30 min after the previous roast), P01 for the full 18 min, and about the same garage temperature as roast 1. He then found the likely reason: in roast 1 he discarded the less-roasted beans from the chaff catcher before weighing, and here he put them back. So roast 1's `14.0 %` was overstated, and the two P01 stages probably roasted about the same.
+- **Spill between stages:** `3.5 g` fell on the floor, so stage 2 (P03) started with `92.5 g`. Total loss from green can only be estimated: scale the final weight by `96.0 / 92.5`. Target for `full_city_plus` (16–18 % total) is now about `85–87.5 g` at the end.
+
+![Beans after stage 1 (P01 18 min)](assets/2026-11-19-04-after-p01.jpg)
 
 ## Tasting
 

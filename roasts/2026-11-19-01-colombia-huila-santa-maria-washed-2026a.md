@@ -29,7 +29,7 @@ actual:
   set_time_min: 18
   p03_set_temp_c: null
   green_weight_g: 107.9
-  roasted_weight_g: 92.8
+  roasted_weight_g: null
   heating_end: null
   heating_end_reason: null
   cooling_end: null
@@ -44,7 +44,7 @@ events:
   smoke_noticeable: null
 
 results:
-  weight_loss_pct: 14.0
+  weight_loss_pct: null
   development_time: null
   development_ratio_pct: null
   roast_level: city
@@ -59,7 +59,7 @@ results:
 tasting: []
 
 next_time: "Taste after at least 4 days rest before changing anything. If the cup is sour, thin or grassy, add heat: a load closer to 120 g (H3) or P03 (H5)."
-notes: "Roasted 2026-11-19. Colin reported 107.9 g green and 92.8 g roasted (14.0 % loss) with one photo. Program P01 and 18 min are taken from the plan he followed. Event times, heating_end, cooling_end, room conditions, bean movement and chaff were not reported and stay null. roast_level and evenness are judged from the photo. Planned 2026-11-19. Colin asked for about 100 g green to get 90 g roasted; the plan uses 108.0 g to allow for 14–17 % weight loss. Must be a cold start. If roasted on another day, rename the file and roast_id. Roast 2026-11-16-02 (Costa Rica, H1 test) is still planned; if both run on the same day, roast this one first and wait at least 30 min before the other."
+notes: "Roasted 2026-11-19. Colin reported 107.9 g green and 92.8 g roasted (14.0 % loss) with one photo. Correction 2026-11-19: Colin later said he discarded the beans blown into the chaff catcher before weighing, because they were less roasted. 92.8 g is therefore the kept beans only, and the true loss is below 14.0 %. roasted_weight_g and weight_loss_pct were first recorded as 92.8 and 14.0 and are now null. Roast 2026-11-19-04's P01 stage, with the catcher beans included, lost 11.1 %, so about 3 g may have been discarded here (estimate). Program P01 and 18 min are taken from the plan he followed. Event times, heating_end, cooling_end, room conditions, bean movement and chaff were not reported and stay null. roast_level and evenness are judged from the photo. Planned 2026-11-19. Colin asked for about 100 g green to get 90 g roasted; the plan uses 108.0 g to allow for 14–17 % weight loss. Must be a cold start. If roasted on another day, rename the file and roast_id. Roast 2026-11-16-02 (Costa Rica, H1 test) is still planned; if both run on the same day, roast this one first and wait at least 30 min before the other."
 ---
 
 # Roast 2026-11-19-01: Colombia Huila Santa Maria
@@ -104,7 +104,7 @@ Baseline is roast [2026-11-11-02](2026-11-11-02-costa-rica-la-rosa-washed-2024a.
 
 Colin's report, 2026-11-19: `107.9 g` green, `92.8 g` roasted, and one photo of the cooled beans ([photo](assets/2026-11-19-01-roasted.jpg)). No event times yet.
 
-- **Weight.** `14.0 %` loss, inside the expected `14–17 %` and at the low end. `92.8 g` roasted hit the 90 g goal.
+- **Weight.** `92.8 g` kept, which hit the 90 g goal. Corrected later: the beans in the chaff catcher were discarded before weighing, so the `14.0 %` apparent loss overstates the true loss (see `notes`).
 - **Color (from the photo).** Light to light-medium brown, matte, no oil. Clearly uneven: many beans are mottled with darker patches on the flat faces, a few are pale orange-tan, and many creases still show pale silverskin. Judged `city`, lighter than the 18 min Costa Rica roast (`2026-11-11-02`), which looked an even medium brown.
 - **What it says about the machine.** Fresh coffee holds more water than the 30-month-old Costa Rica lot, so `14.0 %` loss here means less roasting than `15.3 %` did there (**external guidance**). The 108 g load did not visibly push the roast darker. Because the bean changed too, this does not settle whether loads above 90 g roast faster (H3).
 - **Mottling.** A patchy look is common on fresh beans in air roasters and usually evens out with more development (**external guidance**). The dark patches look like uneven browning, not scorching, but a close-up would confirm it.

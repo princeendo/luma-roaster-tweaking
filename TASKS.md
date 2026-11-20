@@ -62,7 +62,7 @@ Status values: `pending`, `in-progress`, `blocked`, `deferred`, `completed`.
 ### ROAST-04: First roast of the Colombia Huila Santa Maria (fresh lot)
 
 - **Status:** in-progress
-- **Roasted 2026-11-19:** `roasts/2026-11-19-01-colombia-huila-santa-maria-washed-2026a.md` (`P01`, `18 min`, `107.9 g` → `92.8 g`, `14.0 %` loss, `city`, mottled). Event times not yet reported.
+- **Roasted 2026-11-19:** `roasts/2026-11-19-01-colombia-huila-santa-maria-washed-2026a.md` (`P01`, `18 min`, `107.9 g` → `92.8 g` kept, chaff-catcher beans discarded unweighed, `city`, mottled). Event times not yet reported.
 - **Roast 2 (`2026-11-19-02`, roasted):** `P02`, `108.0 g`, `18 min` → `101.4 g` (`6.1 %`; 6.8 g of it was blown into the chaff catcher). Dried but not browned, so P02 is a drying program (H4 answered once). The beans are kept to finish with P03.
 - **Roast 3 (`2026-11-19-03`, roasted):** `P03` at 446 or 464 °F (not sure which; planned 446 °F), finishing roast 2's `101.4 g` → `94.4 g` (`12.6 %` total from green). `light` and very even, lighter than roast 1.
 - **Roast 4 (`2026-11-19-04`, planned):** `P01` 18 min then `P03` 464 °F (240 °C), `108.0 g`, aiming for `full_city_plus`. No printable sheet.
