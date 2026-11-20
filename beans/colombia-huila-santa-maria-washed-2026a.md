@@ -6,7 +6,7 @@ supplier: Happy Mug
 supplier_url: https://happymugcoffee.com
 purchase_date: null
 green_weight_purchased_g: 907.2
-green_weight_remaining_g: 691.3
+green_weight_remaining_g: 583.3
 cost_total: null
 origin_country: Colombia
 region: Huila (village of Santa Maria)
@@ -38,11 +38,11 @@ From the bag label (photographed 2026-11-19): Happy Mug, 2 lb, village Santa Mar
 
 ## Roast history summary
 
-- 2026-11-19-04: planned. P01 18 min, then P03 at 464 °F (240 °C), 108.0 g. Aiming for `full_city_plus`.
+- 2026-11-19-04: roasted. P01 18 min (108.0 → 96.0 g), 3.5 g spilled, then P03 464 °F with no cooling between stages (92.5 → 89.6 g). About 13.9 % total, spill-adjusted. `city_plus`, the darkest so far, a little mottled.
 - 2026-11-19-03: roasted. P03 at 446 or 464 °F (230 or 240 °C; Colin is not sure which), 10 min, finishing the 101.4 g that 2026-11-19-02 dried. 101.4 g to 94.4 g (6.9 %; 12.6 % from the original 108.0 g). `light`, very even, lighter than 2026-11-19-01.
 - 2026-11-19-02: P02, set 18 min, 108.0 g to 101.4 g (94.6 g in the chamber, 6.8 g blown into the chaff catcher), 6.1 % loss. Dried, not roasted: pale straw, no browning. P02 runs much cooler than P01. Batch kept to finish with P03.
 - 2026-11-19-01: roasted. P01, set 18 min, 107.9 g to 92.8 g kept; the chaff-catcher beans were discarded unweighed, so the true loss is under 14.0 %. `city`, mottled and uneven, no oil. No event times recorded. Tasting due about 2026-11-23.
 
 ## Best settings so far
 
-None yet. 2026-11-19-01 (P01, 18 min, 108 g) is the only roast so far and has not been tasted.
+None yet; nothing has been tasted. Three drinkable roasts are resting for a side-by-side tasting: 2026-11-19-01 (P01, `city`, mottled), 2026-11-19-03 (P02 + P03, `light`, even) and 2026-11-19-04 (P01 + P03, `city_plus`).

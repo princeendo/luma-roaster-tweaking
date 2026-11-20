@@ -1,6 +1,6 @@
 ---
 roast_id: 2026-11-19-04
-status: planned
+status: roasted
 date: 2026-11-19
 bean_id: colombia-huila-santa-maria-washed-2026a
 baseline_roast: 2026-11-19-01
@@ -25,11 +25,11 @@ environment:
   minutes_since_last_roast: null
 
 actual:
-  mode: null
-  set_time_min: null
-  p03_set_temp_c: null
-  green_weight_g: null
-  roasted_weight_g: null
+  mode: P01+P03
+  set_time_min: 18
+  p03_set_temp_c: 240
+  green_weight_g: 108.0
+  roasted_weight_g: 89.6
   heating_end: null
   heating_end_reason: null
   cooling_end: null
@@ -47,19 +47,19 @@ results:
   weight_loss_pct: null
   development_time: null
   development_ratio_pct: null
-  roast_level: null
-  color_whole: null
+  roast_level: city_plus
+  color_whole: "medium brown, darker than 2026-11-19-01 and 2026-11-19-03; some mottling; no oil"
   color_ground: null
-  color_method: null
-  evenness: null
+  color_method: "by eye from one indoor phone photo beside 2026-11-19-01 and 2026-11-19-03"
+  evenness: slightly_uneven
   defects: []
   chaff_amount: null
   bean_movement: null
 
 tasting: []
 
-next_time: null
-notes: "Planned 2026-11-19. Two-stage roast in one file. Event times: color change from the start of stage 1; first crack, second crack, smoke, heating_end and cooling_end from the start of stage 2 (P03). Record the weight between stages here if taken. Confirm the P03 knob reads 464 before pressing Power, and photograph it. No printable sheet. If roasted on another day, rename the file and roast_id."
+next_time: "Taste beside 2026-11-19-01 and 2026-11-19-03 before the next roast. If darker is wanted, record the garage temperature first; P03 at its maximum added only 3.1 % after a hot P01 stage."
+notes: "Roasted 2026-11-19. Stage 1: 108.0 g to 96.0 g (11.1 %), catcher beans included. 3.5 g spilled on the floor while moving hot beans quickly between stages, so stage 2 started with 92.5 g and ended at 89.6 g (3.1 %), with a negligible amount in the chaff catcher. weight_loss_pct is null because the spill breaks the formula; the spill-adjusted total is about 13.9 % (89.6 x 96.0 / 92.5 = 93.0 g from 108.0 g). Stage 1 cooling was skipped (hot beans into P03). Cracks were not heard; Colin cannot hear them over the fan. p03_set_temp_c is taken from the plan (464 °F) and was not separately confirmed; heating_end_reason and event times were not reported. Planned 2026-11-19. Two-stage roast in one file. Event times: color change from the start of stage 1; first crack, second crack, smoke, heating_end and cooling_end from the start of stage 2 (P03). Record the weight between stages here if taken. Confirm the P03 knob reads 464 before pressing Power, and photograph it. No printable sheet. If roasted on another day, rename the file and roast_id."
 ---
 
 # Roast 2026-11-19-04: Colombia Huila Santa Maria
@@ -108,10 +108,20 @@ Baseline is roast [2026-11-19-01](2026-11-19-01-colombia-huila-santa-maria-washe
 Colin's mid-roast report, 2026-11-19:
 
 - **After stage 1 (P01, 18 min):** `108.0 g` → `96.0 g`, `11.1 %` loss ([photo](assets/2026-11-19-04-after-p01.jpg)). Light to light-medium and mottled, like roast 2026-11-19-01, but that roast lost `14.0 %` (`92.8 g`) at the same settings. Colin confirmed a cold start (at least 30 min after the previous roast), P01 for the full 18 min, and about the same garage temperature as roast 1. He then found the likely reason: in roast 1 he discarded the less-roasted beans from the chaff catcher before weighing, and here he put them back. So roast 1's `14.0 %` was overstated, and the two P01 stages probably roasted about the same.
-- **Spill between stages:** `3.5 g` fell on the floor, so stage 2 (P03) started with `92.5 g`. Total loss from green can only be estimated: scale the final weight by `96.0 / 92.5`. Target for `full_city_plus` (16–18 % total) is now about `85–87.5 g` at the end.
+- **Cracks cannot be heard.** Colin said he has never been able to hear cracks over the fan. The stop rule was changed mid-roast to: press Power when smoke turns from wisps to a steady stream, when the beans turn clearly darker than 2026-11-19-01, or on any oily sheen; otherwise let 10:00 run.
+- **No cooling between stages.** Colin did not wait for stage 1's cooling cycle to finish. He went to P03 as quickly as he could, so stage 2 started with hot beans, unlike the plan (wait for standby, then empty the chaff bin). Expect stage 2 to run faster than the P03 stage of 2026-11-19-03, which started from cool beans. The manual says to unload only after cooling ends and the unit is back in standby (**manual**); the stage 1 weight (`96.0 g`) was taken hot.
+- **Spill between stages:** `3.5 g` fell on the floor while Colin was moving the hot beans quickly, so stage 2 (P03) started with `92.5 g`. Total loss from green can only be estimated: scale the final weight by `96.0 / 92.5`. Target for `full_city_plus` (16–18 % total) is now about `85–87.5 g` at the end.
 
 ![Beans after stage 1 (P01 18 min)](assets/2026-11-19-04-after-p01.jpg)
+
+- **Final (after stage 2):** `92.5 g` → `89.6 g`, `3.1 %` in this stage, with a negligible amount in the chaff catcher. Spill-adjusted, about `93.0 g` from `108.0 g`: **`13.9 %` total**. That is lighter than the planned `85–87.5 g`.
+- **Color** ([photo](assets/2026-11-19-01-03-04-comparison.jpg); left to right: 2026-11-19-01, 2026-11-19-03, this roast). Medium brown, the darkest of the three, with a little mottling left and no oil. Judged `city_plus`, short of the `full_city_plus` target.
+- **What it says about P03.** Even starting from hot beans already at about `city`, 10 minutes at P03's maximum added only `3.1 %`. P03 holds the roast rather than driving it hard. P01's last minutes seem to be the hottest heat this roaster gives, and an 18 min P01 run already ends close to `city`. So, on this unit at 108 g in this garage, about `city_plus` may be as dark as the programs reach.
+
+![Roasts 2026-11-19-01, 2026-11-19-03 and 2026-11-19-04, left to right](assets/2026-11-19-01-03-04-comparison.jpg)
 
 ## Tasting
 
 ## Next time
+
+Taste all three before roasting again. If the cup wants more roast, check the garage temperature first: cold intake air lowers the heat a small air roaster can reach (**external guidance**).
