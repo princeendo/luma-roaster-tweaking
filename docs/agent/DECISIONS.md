@@ -18,7 +18,7 @@ This document records significant architectural and project decisions. It is aut
 
 - **Decision:** One file per roast in `roasts/` and one per green-coffee lot in `beans/`. Structured data lives in YAML front matter whose keys are defined in `reference/roast-variables.md`. Temperatures in °C, weights in grams, event times as `mm:ss` from the start of heating.
 - **Context:** Roasts are planned and recorded in conversation with an agent now, and a phone app is planned later.
-- **Rationale:** Agents read and edit Markdown easily, Git keeps history, and front matter is simple for an app to parse. °C matches the roaster's display.
+- **Rationale:** Agents read and edit Markdown easily, Git keeps history, and front matter is simple for an app to parse. °C matches the manual. (Correction 2026-11-19: Colin's 120 V unit shows the P03 knob in °F. Records stay in °C, and plans give the °F knob value too.)
 - **Consequences:** The front-matter keys are a contract. Changing one means updating the template and the dictionary together, and later the app.
 - **Alternatives considered:** A spreadsheet or CSV (hard to hold free-text tasting and plan notes); a database (too early, and hard for an agent to edit).
 

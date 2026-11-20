@@ -59,7 +59,7 @@ results:
 tasting: []
 
 next_time: null
-notes: "Planned 2026-11-19. Second stage of a two-stage roast: the input is the 101.4 g of partly dried beans from 2026-11-19-02 (108.0 g green before P02), not fresh green coffee, so green_weight_g is 101.4 and weight_loss_pct is against that. Record the total loss against 108.0 g here as well, since that is the figure comparable with 2026-11-19-01. No printable sheet. If roasted on another day, rename the file and roast_id."
+notes: "Planned 2026-11-19. Colin found the P03 knob bottoms out at 284, so this unit shows P03 temperatures in °F (284 °F = 140 °C): set the knob to 446 °F for 230 °C. p03_set_temp_c stays in °C. Second stage of a two-stage roast: the input is the 101.4 g of partly dried beans from 2026-11-19-02 (108.0 g green before P02), not fresh green coffee, so green_weight_g is 101.4 and weight_loss_pct is against that. Record the total loss against 108.0 g here as well, since that is the figure comparable with 2026-11-19-01. No printable sheet. If roasted on another day, rename the file and roast_id."
 ---
 
 # Roast 2026-11-19-03: Colombia Huila Santa Maria
@@ -76,7 +76,9 @@ Baseline is roast [2026-11-19-01](2026-11-19-01-colombia-huila-santa-maria-washe
 
 **Confidence: 45 %** that this ends at `full_city` or darker, at 89–92 g. The main uncertainty is P03 itself: its fan strength and how fast it reaches 230 °C are both unknown (H5).
 
-**If it ends before first crack:** P03 at 230 °C is too gentle for a 10-minute stage. Next time, try 240 °C. **If second crack comes before about 07:00:** next time, try 220 °C.
+**Knob values.** This unit shows P03 temperatures in °F (**observed**, 2026-11-19: the knob stops at 284, which is 140 °C). Set **446 °F** for 230 °C.
+
+**If it ends before first crack:** P03 at 230 °C is too gentle for a 10-minute stage. Next time, try 240 °C (464 °F). **If second crack comes before about 07:00:** next time, try 220 °C (428 °F).
 
 ## Before the roast
 
@@ -86,7 +88,7 @@ Baseline is roast [2026-11-19-01](2026-11-19-01-colombia-huila-santa-maria-washe
 
 ## During the roast
 
-1. Hold Power `3 s`, knob to `P03`, press Power, knob to `230`, press Power, start the stopwatch. Stay with the roaster the whole cycle (**manual**).
+1. Hold Power `3 s`, knob to `P03`, press Power, knob to **`446`** (°F, which is 230 °C; this unit shows °F), press Power, start the stopwatch. Stay with the roaster the whole cycle (**manual**).
 2. In the first minute, check the whole bed churns and note whether beans are being blown into the chaff catcher, as they were on P02.
 3. Note color change, any cracking, smoke, and second-crack snaps.
 4. Follow the stop rule. Unload only after cooling ends and the unit returns to standby (**manual**).

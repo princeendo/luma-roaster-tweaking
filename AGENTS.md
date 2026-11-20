@@ -43,7 +43,7 @@ These come from the manual. Plans must never exceed them.
 
 ## Data rules
 
-- Temperatures are in °C, because the roaster displays °C. Weights are in grams. Times are `mm:ss` from the moment Power is pressed to start heating.
+- Temperatures are recorded in °C, the manual's unit. Colin's unit shows the P03 knob in °F (284–464 °F for 140–240 °C), so plans give the °F knob value as well. Weights are in grams. Times are `mm:ss` from the moment Power is pressed to start heating.
 - Roast and bean files are Markdown with YAML front matter. The front matter is the machine-readable record that a future app will import, so keep its keys exactly as the template defines them. Add a new key to the template and to `reference/roast-variables.md` in the same change, never to one file alone.
 - Do not delete or rewrite a past roast's recorded data. Correct a mistake in place and say so in the file's `notes`.
 

@@ -6,7 +6,7 @@ This is the dictionary for every field in a roast file (`roasts/_template.md`) a
 
 | Quantity | Unit | Format |
 |---|---|---|
-| Temperature | °C | number, for example `205` |
+| Temperature | °C | number, for example `205`. Colin's unit shows the P03 knob in °F, so convert: °C = (°F − 32) × 5 / 9. Plans give both. |
 | Weight | grams | number, one decimal at most, for example `100.0` |
 | Elapsed time | minutes and seconds from the press of Power that starts heating | string `"mm:ss"`, for example `"08:45"` |
 | Roaster time setting | whole minutes, as set on the knob | number, for example `11` |
