@@ -63,7 +63,8 @@ Status values: `pending`, `in-progress`, `blocked`, `deferred`, `completed`.
 
 - **Status:** in-progress
 - **Roasted 2026-11-19:** `roasts/2026-11-19-01-colombia-huila-santa-maria-washed-2026a.md` (`P01`, `18 min`, `107.9 g` → `92.8 g`, `14.0 %` loss, `city`, mottled). Event times not yet reported.
-- **Next:** taste on or after 2026-11-23 and record a `tasting` entry, then plan roast 2.
+- **Roast 2 (`2026-11-19-02`, planned):** `P02`, `108.0 g`, `18 min`, testing H4 (P02 vs P01). No printable sheet.
+- **Next:** taste both roasts side by side on or after 2026-11-23 and record `tasting` entries.
 - **What:** Roast, record, rest at least 4 days, then taste with Colin's daily Juni recipe (`30 g`, Opus 2 `3.5`).
 - **Why:** First fresh coffee on this machine, so the first cup results worth tuning against. Also the first load above 90 g (H3).
 - **Order:** Cold start. If 2026-11-16-02 (ROAST-03) runs the same day, roast this one first and wait at least 30 min.

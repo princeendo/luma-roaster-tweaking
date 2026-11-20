@@ -38,6 +38,7 @@ From the bag label (photographed 2026-11-19): Happy Mug, 2 lb, village Santa Mar
 
 ## Roast history summary
 
+- 2026-11-19-02: planned. P02, set 18 min, 108.0 g. Tests H4 (P02 vs P01) against 2026-11-19-01.
 - 2026-11-19-01: roasted. P01, set 18 min, 107.9 g to 92.8 g (14.0 % loss). `city`, mottled and uneven, no oil. No event times recorded. Tasting due about 2026-11-23.
 
 ## Best settings so far
