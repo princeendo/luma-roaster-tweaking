@@ -29,7 +29,7 @@ actual:
   set_time_min: 18
   p03_set_temp_c: null
   green_weight_g: 108.0
-  roasted_weight_g: null
+  roasted_weight_g: 101.4
   heating_end: null
   heating_end_reason: null
   cooling_end: null
@@ -44,7 +44,7 @@ events:
   smoke_noticeable: null
 
 results:
-  weight_loss_pct: null
+  weight_loss_pct: 6.1
   development_time: null
   development_ratio_pct: null
   roast_level: null
@@ -59,7 +59,7 @@ results:
 tasting: []
 
 next_time: "Finish this same batch with P03 (the manual's P02 + P03 method), which also tests H5. Do not use P02 alone to roast."
-notes: "Roasted 2026-11-19. Colin reported 108.0 g green and 94.6 g after the cycle with one photo, and put 'roasted' in quotes. The beans came out dried but not browned, so roast_level stays null (below cinnamon). Program P02 and 18 min are taken from the plan he followed; event times, heating_end, error codes and the chaff amount were not reported. Colin later added that many beans were blown up into the chaff catcher. Correction 2026-11-19: Colin confirmed the 94.6 g did not include the beans in the chaff catcher, so it is a partial weight. roasted_weight_g and weight_loss_pct were first recorded as 94.6 and 12.4 and are now null; the true loss is below 12.4 %. Planned 2026-11-19. No printable sheet; Colin asked to skip it. Must be a cold start. If roasted on another day, rename the file and roast_id."
+notes: "Roasted 2026-11-19. Colin reported 108.0 g green and 94.6 g after the cycle with one photo, and put 'roasted' in quotes. The beans came out dried but not browned, so roast_level stays null (below cinnamon). Program P02 and 18 min are taken from the plan he followed; event times, heating_end, error codes and the chaff amount were not reported. Colin later added that many beans were blown up into the chaff catcher. Correction 2026-11-19: Colin confirmed the 94.6 g did not include the beans in the chaff catcher, so it is a partial weight. roasted_weight_g and weight_loss_pct were first recorded as 94.6 and 12.4 and are now null; the true loss is below 12.4 %. Colin then weighed the chaff-catcher beans at 6.8 g, so the total is 101.4 g (94.6 + 6.8) and weight_loss_pct is 6.1. Planned 2026-11-19. No printable sheet; Colin asked to skip it. Must be a cold start. If roasted on another day, rename the file and roast_id."
 ---
 
 # Roast 2026-11-19-02: Colombia Huila Santa Maria
@@ -88,11 +88,11 @@ Baseline is roast [2026-11-19-01](2026-11-19-01-colombia-huila-santa-maria-washe
 
 ## During the roast (notes)
 
-Colin's report, 2026-11-19: `108.0 g` in, `94.6 g` out of the chamber (not counting beans blown into the chaff catcher), one photo ([photo](assets/2026-11-19-02-roasted.jpg)), and "What happened here?"
+Colin's report, 2026-11-19: `108.0 g` in, `94.6 g` out of the chamber (not counting beans blown into the chaff catcher), plus `6.8 g` in the chaff catcher (`101.4 g` total), one photo ([photo](assets/2026-11-19-02-roasted.jpg)), and "What happened here?"
 
-- **Result.** The beans dried but did not roast. They are pale straw to off-white, paler than the green coffee, with no browning anywhere. The weight loss is unknown: `94.6 g` leaves out the beans in the chaff catcher, so the true loss is below `12.4 %`. Fresh green coffee holds about 10–12 % water (**external guidance**), so the cycle removed some or most of the water and little else.
+- **Result.** The beans dried but did not roast. They are pale straw to off-white, paler than the green coffee, with no browning anywhere. Total weight loss was only `6.1 %`. Fresh green coffee holds about 10–12 % water (**external guidance**), so the cycle removed roughly half the water and did nothing else. For comparison, P01 at the same settings lost `14.0 %` (**observed**, 2026-11-19-01).
 - **What it says about P02.** P02 runs far cooler than P01 on this unit. The same bean, load and time on P01 lost `14.0 %` and reached `city` (**observed**, 2026-11-19-01). This fits the manual, which uses a 10-minute P02 cycle to "dehydrate the beans and remove chaff" before a P03 roast (**manual**). P02 seems to be a drying program with more airflow and less heat, not a stronger roast program. One roast, so this is **observed** once, not yet repeated.
-- **Beans blown into the chaff catcher.** Colin added that many beans ended up in the chaff catcher. That means P02 blows much harder than P01, which did not do this at the same load (**observed**, 2026-11-19-01). More air through the same heater gives cooler air, and beans sitting in the catcher are out of the hot airflow, which explains the drying-only result. The manual's description fits: P02 is for beans with a lot of chaff, which needs a strong airflow to clear.
+- **Beans blown into the chaff catcher.** Colin added that many beans ended up in the chaff catcher: `6.8 g`, about 6 % of the batch. That means P02 blows much harder than P01, which did not do this at the same load (**observed**, 2026-11-19-01). More air through the same heater gives cooler air, and beans sitting in the catcher are out of the hot airflow, which explains the drying-only result. The manual's description fits: P02 is for beans with a lot of chaff, which needs a strong airflow to clear.
 - **Not a fault, probably.** The beans visibly dried and paled, which takes real heat, so the heater did run. Still worth confirming there was no error code and that the timer ran to 18:00.
 - **The batch is not wasted.** It is now in the state the manual's P02 + P03 method expects after its first stage. Finishing it with P03 also answers H5.
 
@@ -102,4 +102,4 @@ Colin's report, 2026-11-19: `108.0 g` in, `94.6 g` out of the chamber (not count
 
 ## Next time
 
-Finish these beans (94.6 g plus the ones from the chaff catcher) with P03 as a second stage. Do not use P02 alone to roast on this machine.
+Finish these 101.4 g (chamber and chaff-catcher beans together) with P03 as a second stage. Do not use P02 alone to roast on this machine.
